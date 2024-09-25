@@ -360,7 +360,7 @@
 	"kz_hb_mute"
 	{
 		"workshop_id"		"3159507211"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_hb_mute"
 		"updatedname"		"kz_hb_mute"
 	}
