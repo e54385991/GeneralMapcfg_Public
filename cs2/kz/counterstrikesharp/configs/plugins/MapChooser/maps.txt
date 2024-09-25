@@ -416,7 +416,7 @@
 	"kz_sxb2_misato"
 	{
 		"workshop_id"		"3082850001"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_sxb2_misato"
 		"updatedname"		"kz_sxb2_misato"
 	}
