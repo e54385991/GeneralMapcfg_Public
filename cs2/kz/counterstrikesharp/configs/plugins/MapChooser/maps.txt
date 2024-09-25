@@ -136,7 +136,7 @@
 	"kz_xmas2023"
 	{
 		"workshop_id"		"3124558836"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_xmas2023"
 		"updatedname"		"kz_xmas2023"
 	}
