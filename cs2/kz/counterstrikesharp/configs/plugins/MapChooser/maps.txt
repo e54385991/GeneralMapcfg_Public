@@ -52,7 +52,7 @@
 	"kz_sxb2_biewan"
 	{
 		"workshop_id"		"3076000218"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_sxb2_biewan"
 		"updatedname"		"kz_sxb2_biewan"
 	}
@@ -199,7 +199,7 @@
 	"kz_ladderdespair"
 	{
 		"workshop_id"		"3234811937"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_ladderdespair"
 		"updatedname"		"kz_ladderdespair"
 	}
@@ -339,7 +339,7 @@
 	"kz_bd_its_mygo"
 	{
 		"workshop_id"		"3285279291"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_bd_its_mygo"
 		"updatedname"		"kz_bd_its_mygo"
 	}
