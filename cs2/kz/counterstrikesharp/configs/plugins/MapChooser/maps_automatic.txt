@@ -581,4 +581,32 @@
 		"filename"		"kz_celestial"
 		"updatedname"		"kz_celestial"
 	}
+	"KZ_KEY"
+	{
+		"workshop_id"		"3344417199"
+		"enabled"		"1"
+		"filename"		"KZ_KEY"
+		"updatedname"		"KZ_KEY"
+	}
+	"dima onlyup (kz_dima)"
+	{
+		"workshop_id"		"3343029934"
+		"enabled"		"1"
+		"filename"		"dima onlyup (kz_dima)"
+		"updatedname"		"dima onlyup (kz_dima)"
+	}
+	"kz_apasanka"
+	{
+		"workshop_id"		"3346109633"
+		"enabled"		"1"
+		"filename"		"kz_apasanka"
+		"updatedname"		"kz_apasanka"
+	}
+	"kz_demonhours"
+	{
+		"workshop_id"		"3346247176"
+		"enabled"		"1"
+		"filename"		"kz_demonhours"
+		"updatedname"		"kz_demonhours"
+	}
 }
