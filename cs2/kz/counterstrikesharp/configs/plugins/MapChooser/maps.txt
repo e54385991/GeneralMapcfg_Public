@@ -577,7 +577,7 @@
         "kz_dima"
 	{
 		"workshop_id"		"3343029934"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_dima"
 		"updatedname"		"kz_dima"
 	}
