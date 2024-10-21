@@ -609,4 +609,32 @@
 		"filename"		"kz_demonhours"
 		"updatedname"		"kz_demonhours"
 	}
+	"kz_opus"
+	{
+		"workshop_id"		"3349672933"
+		"enabled"		"1"
+		"filename"		"kz_opus"
+		"updatedname"		"kz_opus"
+	}
+	"kz_moorerutan"
+	{
+		"workshop_id"		"3348711619"
+		"enabled"		"1"
+		"filename"		"kz_moorerutan"
+		"updatedname"		"kz_moorerutan"
+	}
+	"kz_epiphany_v2"
+	{
+		"workshop_id"		"3350183413"
+		"enabled"		"1"
+		"filename"		"kz_epiphany_v2"
+		"updatedname"		"kz_epiphany_v2"
+	}
+	"kz_sanctuary"
+	{
+		"workshop_id"		"3350663039"
+		"enabled"		"1"
+		"filename"		"kz_sanctuary"
+		"updatedname"		"kz_sanctuary"
+	}
 }
