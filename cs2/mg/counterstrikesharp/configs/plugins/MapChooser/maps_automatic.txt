@@ -1,172 +1,298 @@
 "Maplist"
 {
-	"mg_multigames_devine_is_french"
+	"MG_ZEIZEIII [MiniGames]"
 	{
-		"workshop_id"		"3111582979"
+		"workshop_id"		"3214872987"
 		"enabled"		"1"
-		"filename"		"mg_multigames_devine_is_french"
-		"updatedname"		"mg_multigames_devine_is_french"
+		"filename"		"MG_ZEIZEIII [MiniGames]"
+		"updatedname"		"MG_ZEIZEIII [MiniGames]"
 	}
-	"MG Damons Headshot"
+	"mg_bob4 [COURSE]"
 	{
-		"workshop_id"		"3090078601"
-		"enabled"		"0"
-		"filename"		"MG Damons Headshot"
-		"updatedname"		"MG Damons Headshot"
-	}
-	"MG Skeet Multigames"
-	{
-		"workshop_id"		"3082120895"
-		"enabled"		"0"
-		"filename"		"MG Skeet Multigames"
-		"updatedname"		"MG Skeet Multigames"
-	}
-	"mg_lego_multigames"
-	{
-		"workshop_id"		"3097973183"
+		"workshop_id"		"3214686410"
 		"enabled"		"1"
-		"filename"		"mg_lego_multigames"
-		"updatedname"		"mg_lego_multigames"
+		"filename"		"mg_bob4 [COURSE]"
+		"updatedname"		"mg_bob4 [COURSE]"
 	}
-	"mg_ski_mountain"
+	"mg_100traps [MG]"
 	{
-		"workshop_id"		"3108056215"
-		"enabled"		"0"
-		"filename"		"mg_ski_mountain"
-		"updatedname"		"mg_ski_mountain"
-	}
-	"mg_swag_multigames_v7_1"
-	{
-		"workshop_id"		"3101960156"
+		"workshop_id"		"3198747928"
 		"enabled"		"1"
-		"filename"		"mg_swag_multigames_v7_1"
-		"updatedname"		"mg_swag_multigames_v7_1"
+		"filename"		"mg_100traps [MG]"
+		"updatedname"		"mg_100traps [MG]"
 	}
-	"mg_skytower_v1"
+	"mg_dicore_course"
 	{
-		"workshop_id"		"3115140041"
+		"workshop_id"		"3216834237"
 		"enabled"		"1"
-		"filename"		"mg_skytower_v1"
-		"updatedname"		"mg_skytower_v1"
+		"filename"		"mg_dicore_course"
+		"updatedname"		"mg_dicore_course"
 	}
-	"MG N64 Goldeneye"
+	"mg_kegs_course [MG]"
 	{
-		"workshop_id"		"3095601524"
+		"workshop_id"		"3206261435"
 		"enabled"		"1"
-		"filename"		"mg_n64_goldeneye"
-		"updatedname"		"MG N64 Goldeneye"
+		"filename"		"mg_kegs_course [MG]"
+		"updatedname"		"mg_kegs_course [MG]"
 	}
-	"mg_warmcup_headshot"
+	"mg_glave_course_v2"
 	{
-		"workshop_id"		"3076765511"
-		"enabled"		"0"
-		"filename"		"mg_warmcup_headshot"
-		"updatedname"		"mg_warmcup_headshot"
-	}
-	"Awp Submarine"
-	{
-		"workshop_id"		"3086424873"
-		"enabled"		"0"
-		"filename"		"Awp Submarine"
-		"updatedname"		"Awp Submarine"
-	}
-	"mg_17_battles_b1b"
-	{
-		"workshop_id"		"3082448970"
+		"workshop_id"		"3070445185"
 		"enabled"		"1"
-		"filename"		"mg_17_battles_b1b"
-		"updatedname"		"mg_17_battles_b1b"
+		"filename"		"mg_glave_course_v2"
+		"updatedname"		"mg_glave_course_v2"
 	}
-	"fun_matrix"
+	"mg_circle_course_v3"
 	{
-		"workshop_id"		"3085513970"
+		"workshop_id"		"3070434475"
 		"enabled"		"1"
-		"filename"		"fun_matrix"
-		"updatedname"		"fun_matrix"
+		"filename"		"mg_circle_course_v3"
+		"updatedname"		"mg_circle_course_v3"
 	}
-	"de_pushcircle2"
+	"mg_school_course_v3"
 	{
-		"workshop_id"		"3092535095"
+		"workshop_id"		"3070441621"
 		"enabled"		"1"
-		"filename"		"de_pushcircle2"
-		"updatedname"		"de_pushcircle2"
+		"filename"		"mg_school_course_v3"
+		"updatedname"		"mg_school_course_v3"
 	}
-	"mg_01Minecraftminigame[V 1.23]"
+	"mg_alley_course_v2"
 	{
-		"workshop_id"		"3141424006"
+		"workshop_id"		"3070455802"
 		"enabled"		"1"
-		"filename"		"mg_01minecraftminigame"
-		"updatedname"		"mg_01Minecraftminigame[V 1.23]"
+		"filename"		"mg_alley_course_v2"
+		"updatedname"		"mg_alley_course_v2"
 	}
-	"WL Multigames"
+	"mg_sky_realm_v3"
 	{
-		"workshop_id"		"3156615586"
+		"workshop_id"		"3070451616"
 		"enabled"		"1"
-		"filename"		"mg_wl_multigames"
-		"updatedname"		"WL Multigames"
+		"filename"		"mg_sky_realm_v3"
+		"updatedname"		"mg_sky_realm_v3"
 	}
-	"de_rats_1337"
+	"mg_nxr_course_v2"
 	{
-		"workshop_id"		"3072959547"
-		"enabled"		"0"
-		"filename"		"de_rats_1337"
-		"updatedname"		"de_rats_1337"
-	}
-	"Copter Tower [PVP]"
-	{
-		"workshop_id"		"3183831654"
+		"workshop_id"		"3070455191"
 		"enabled"		"1"
-		"filename"		"mg_copter_tower_v5"
-		"updatedname"		"Copter Tower [PVP]"
+		"filename"		"mg_nxr_course_v2"
+		"updatedname"		"mg_nxr_course_v2"
 	}
-	"mg_legospace_multigames [MULTIGAMES]"
+	"mg_sonic_course_v2"
 	{
-		"workshop_id"		"3188024686"
+		"workshop_id"		"3070452642"
 		"enabled"		"1"
-		"filename"		"mg_lego_multigames"
-		"updatedname"		"mg_legospace_multigames [MULTIGAMES]"
+		"filename"		"mg_sonic_course_v2"
+		"updatedname"		"mg_sonic_course_v2"
 	}
-	"de_festival"
+	"mg_balistic_course"
 	{
-		"workshop_id"		"3163224842"
-		"enabled"		"0"
-		"filename"		"de_festival"
-		"updatedname"		"de_festival"
-	}
-	"mg sky dust"
-	{
-		"workshop_id"		"3213628872"
+		"workshop_id"		"3164692527"
 		"enabled"		"1"
-		"filename"		"mg_sky_dust"
-		"updatedname"		"mg sky dust"
+		"filename"		"mg_balistic_course"
+		"updatedname"		"mg_balistic_course"
 	}
-	"mg_thc_lego_multimap"
+	"mg_ruin_course"
 	{
-		"workshop_id"		"3218692982"
+		"workshop_id"		"3165539530"
 		"enabled"		"1"
-		"filename"		"mg_thc_lego_multimap"
-		"updatedname"		"mg_thc_lego_multimap"
+		"filename"		"mg_ruin_course"
+		"updatedname"		"mg_ruin_course"
 	}
-	"mg_summer_tower"
+	"MG Damons Course"
 	{
-		"workshop_id"		"3223846548"
+		"workshop_id"		"3104697349"
 		"enabled"		"1"
-		"filename"		"mg_summer_tower_v1"
-		"updatedname"		"mg_summer_tower"
+		"filename"		"MG Damons Course"
+		"updatedname"		"MG Damons Course"
 	}
-	"mg_Pudding_Multigames_cs2"
+	"cr_metro_course"
 	{
-		"workshop_id"		"3242033080"
+		"workshop_id"		"3071040020"
 		"enabled"		"1"
-		"filename"		"mg_pudding_multigames"
-		"updatedname"		"mg_Pudding_Multigames_cs2"
+		"filename"		"cr_metro_course"
+		"updatedname"		"cr_metro_course"
 	}
-	"mg_ke_multigame"
+	"mg_sonic_islands_v4"
 	{
-		"workshop_id"		"3265016761"
+		"workshop_id"		"3166488259"
 		"enabled"		"1"
-		"filename"		"mg_ke_multigame"
-		"updatedname"		"mg_ke_multigame"
+		"filename"		"mg_sonic_islands_v4"
+		"updatedname"		"mg_sonic_islands_v4"
+	}
+	"mg_saw_v64_cs2"
+	{
+		"workshop_id"		"3106085501"
+		"enabled"		"1"
+		"filename"		"mg_saw_v64_cs2"
+		"updatedname"		"mg_saw_v64_cs2"
+	}
+	"mg_minecraft_course_jb"
+	{
+		"workshop_id"		"3070896876"
+		"enabled"		"1"
+		"filename"		"mg_minecraft_course_jb"
+		"updatedname"		"mg_minecraft_course_jb"
+	}
+	"[娱乐闯关]Space_Course"
+	{
+		"workshop_id"		"3075574739"
+		"enabled"		"1"
+		"filename"		"[娱乐闯关]Space_Course"
+		"updatedname"		"[娱乐闯关]Space_Course"
+	}
+	"QUBE [MiniGames]"
+	{
+		"workshop_id"		"3129272566"
+		"enabled"		"1"
+		"filename"		"QUBE [MiniGames]"
+		"updatedname"		"QUBE [MiniGames]"
+	}
+	"Supernatural Course [Minigames]"
+	{
+		"workshop_id"		"3168333071"
+		"enabled"		"1"
+		"filename"		"Supernatural Course [Minigames]"
+		"updatedname"		"Supernatural Course [Minigames]"
+	}
+	"Mg_cypher_cs2"
+	{
+		"workshop_id"		"3200157057"
+		"enabled"		"1"
+		"filename"		"Mg_cypher_cs2"
+		"updatedname"		"Mg_cypher_cs2"
+	}
+	"mg_lego_course_2"
+	{
+		"workshop_id"		"3202752274"
+		"enabled"		"1"
+		"filename"		"mg_lego_course_2"
+		"updatedname"		"mg_lego_course_2"
+	}
+	"mg_iceq_course_remake_dwz"
+	{
+		"workshop_id"		"3230812148"
+		"enabled"		"1"
+		"filename"		"mg_iceq_course_remake_dwz"
+		"updatedname"		"mg_iceq_course_remake_dwz"
+	}
+	"mg_savetheisland_course"
+	{
+		"workshop_id"		"3234988266"
+		"enabled"		"1"
+		"filename"		"mg_savetheisland_course"
+		"updatedname"		"mg_savetheisland_course"
+	}
+	"mg_savetheisland_course"
+	{
+		"workshop_id"		"3239475921"
+		"enabled"		"1"
+		"filename"		"mg_savetheisland_course"
+		"updatedname"		"mg_savetheisland_course"
+	}
+	"mg_colors_cube"
+	{
+		"workshop_id"		"3239388553"
+		"enabled"		"1"
+		"filename"		"mg_colors_cube"
+		"updatedname"		"mg_colors_cube"
+	}
+	"mg_cyber_course_v6"
+	{
+		"workshop_id"		"3242822672"
+		"enabled"		"1"
+		"filename"		"mg_cyber_course_v6"
+		"updatedname"		"mg_cyber_course_v6"
+	}
+	"mg_sketchy_course"
+	{
+		"workshop_id"		"3248014004"
+		"enabled"		"1"
+		"filename"		"mg_sketchy_course"
+		"updatedname"		"mg_sketchy_course"
+	}
+	"mg_escape_prison_cs2"
+	{
+		"workshop_id"		"3246242621"
+		"enabled"		"1"
+		"filename"		"mg_escape_prison_cs2"
+		"updatedname"		"mg_escape_prison_cs2"
+	}
+	"mg_ecliptic_v4"
+	{
+		"workshop_id"		"3249980603"
+		"enabled"		"1"
+		"filename"		"mg_ecliptic_v4"
+		"updatedname"		"mg_ecliptic_v4"
+	}
+	"mg_beach_course_final"
+	{
+		"workshop_id"		"3260285519"
+		"enabled"		"1"
+		"filename"		"mg_beach_course_final"
+		"updatedname"		"mg_beach_course_final"
+	}
+	"mg_alley_course_reskin"
+	{
+		"workshop_id"		"3070622716"
+		"enabled"		"1"
+		"filename"		"mg_alley_course_reskin"
+		"updatedname"		"mg_alley_course_reskin"
+	}
+	"mg_nothing"
+	{
+		"workshop_id"		"3259001928"
+		"enabled"		"1"
+		"filename"		"mg_nothing"
+		"updatedname"		"mg_nothing"
+	}
+	"mg_airmap_run"
+	{
+		"workshop_id"		"3267641400"
+		"enabled"		"1"
+		"filename"		"mg_airmap_run"
+		"updatedname"		"mg_airmap_run"
+	}
+	"mg_Modern_Dev"
+	{
+		"workshop_id"		"3270293699"
+		"enabled"		"1"
+		"filename"		"mg_Modern_Dev"
+		"updatedname"		"mg_Modern_Dev"
+	}
+	"mg_reverse"
+	{
+		"workshop_id"		"3268022349"
+		"enabled"		"1"
+		"filename"		"mg_reverse"
+		"updatedname"		"mg_reverse"
+	}
+	"mg_nothing_hard"
+	{
+		"workshop_id"		"3263027853"
+		"enabled"		"1"
+		"filename"		"mg_nothing_hard"
+		"updatedname"		"mg_nothing_hard"
+	}
+	"mg_blanc"
+	{
+		"workshop_id"		"3273716863"
+		"enabled"		"1"
+		"filename"		"mg_blanc"
+		"updatedname"		"mg_blanc"
+	}
+	"mg_gumobstacle_t"
+	{
+		"workshop_id"		"3282542601"
+		"enabled"		"1"
+		"filename"		"mg_gumobstacle_t"
+		"updatedname"		"mg_gumobstacle_t"
+	}
+	"mg_bobiii_reborn - 2016"
+	{
+		"workshop_id"		"3282513988"
+		"enabled"		"1"
+		"filename"		"mg_bobiii_reborn - 2016"
+		"updatedname"		"mg_bobiii_reborn - 2016"
 	}
 	"mg_slowdown"
 	{
@@ -175,32 +301,67 @@
 		"filename"		"mg_slowdown"
 		"updatedname"		"mg_slowdown"
 	}
-	"mg_skytower_b2"
+	"mg_dobaba_t"
 	{
-		"workshop_id"		"3287466367"
+		"workshop_id"		"3293887607"
 		"enabled"		"1"
-		"filename"		"mg_skytower_b2"
-		"updatedname"		"mg_skytower_b2"
+		"filename"		"mg_dobaba_t"
+		"updatedname"		"mg_dobaba_t"
 	}
-	"mg_wan_multigames"
+	"mg_bobiii_reborn"
 	{
-		"workshop_id"		"3286925985"
+		"workshop_id"		"3297768125"
 		"enabled"		"1"
-		"filename"		"mg_wan_multigames"
-		"updatedname"		"mg_wan_multigames"
+		"filename"		"mg_bobiii_reborn"
+		"updatedname"		"mg_bobiii_reborn"
 	}
-	"MG_Ski_Mountain"
+	"mg_skyblok_first_fight (Minecraft)"
 	{
-		"workshop_id"		"3307925815"
+		"workshop_id"		"3302272706"
 		"enabled"		"1"
-		"filename"		"MG_Ski_Mountain"
-		"updatedname"		"MG_Ski_Mountain"
+		"filename"		"mg_skyblok_first_fight (Minecraft)"
+		"updatedname"		"mg_skyblok_first_fight (Minecraft)"
 	}
-	"mg_skytower_b3"
+	"mg_xiazuo_t"
 	{
-		"workshop_id"		"3306926773"
+		"workshop_id"		"3302548592"
 		"enabled"		"1"
-		"filename"		"mg_skytower_b3"
-		"updatedname"		"mg_skytower_b3"
+		"filename"		"mg_xiazuo_t"
+		"updatedname"		"mg_xiazuo_t"
+	}
+	"mg_cartoon_course"
+	{
+		"workshop_id"		"3305246381"
+		"enabled"		"1"
+		"filename"		"mg_cartoon_course"
+		"updatedname"		"mg_cartoon_course"
+	}
+	"mg_koaes_t"
+	{
+		"workshop_id"		"3307003397"
+		"enabled"		"1"
+		"filename"		"mg_koaes_t"
+		"updatedname"		"mg_koaes_t"
+	}
+	"mg_lego_course_redone"
+	{
+		"workshop_id"		"3311944920"
+		"enabled"		"1"
+		"filename"		"mg_lego_course_redone"
+		"updatedname"		"mg_lego_course_redone"
+	}
+	"mg_fiery_t"
+	{
+		"workshop_id"		"3327928867"
+		"enabled"		"1"
+		"filename"		"mg_fiery_t"
+		"updatedname"		"mg_fiery_t"
+	}
+	"mg_adventure_course【闯关】"
+	{
+		"workshop_id"		"3340677095"
+		"enabled"		"1"
+		"filename"		"mg_adventure_course【闯关】"
+		"updatedname"		"mg_adventure_course【闯关】"
 	}
 }
