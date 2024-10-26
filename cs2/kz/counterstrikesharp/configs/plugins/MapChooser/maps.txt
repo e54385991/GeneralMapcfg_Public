@@ -409,7 +409,7 @@
 	"kz_isuper"
 	{
 		"workshop_id"		"3100988369"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_isuper"
 		"updatedname"		"kz_isuper"
 	}
