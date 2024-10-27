@@ -276,7 +276,7 @@
 	"kz_superstructure"
 	{
 		"workshop_id"		"3266838066"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_superstructure"
 		"updatedname"		"kz_superstructure"
 	}
