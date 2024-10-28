@@ -630,4 +630,39 @@
 		"filename"		"kz_sanctuary"
 		"updatedname"		"kz_sanctuary"
 	}
+        "kz_spire"
+	{
+	        "workshop_id"		"3352534882"
+		"enabled"		"1"
+		"filename"		"kz_spire"
+		"updatedname"		"kz_spire"
+	}
+        "kz_summercliff2_go"
+	{
+	        "workshop_id"		"3353950265"
+		"enabled"		"1"
+		"filename"		"kz_summercliff2_go"
+		"updatedname"		"kz_summercliff2_go"
+	}
+        "kz_dethroned"
+	{
+	        "workshop_id"		"3354073065"
+		"enabled"		"1"
+		"filename"		"kz_dethroned"
+		"updatedname"		"kz_dethroned"
+	}
+        "kz_longjumps_space"
+	{
+	        "workshop_id"		"3354242306"
+		"enabled"		"1"
+		"filename"		"kz_longjumps_space"
+		"updatedname"		"kz_longjumps_space"
+	}
+        "kz_lmn"
+	{
+	        "workshop_id"		"3355230567"
+		"enabled"		"1"
+		"filename"		"kz_lmn"
+		"updatedname"		"kz_lmn"
+	}
 }
