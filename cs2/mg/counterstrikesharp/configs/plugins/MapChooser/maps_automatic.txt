@@ -10,14 +10,14 @@
 	"MG Damons Headshot"
 	{
 		"workshop_id"		"3090078601"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"MG Damons Headshot"
 		"updatedname"		"MG Damons Headshot"
 	}
 	"MG Skeet Multigames"
 	{
 		"workshop_id"		"3082120895"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"MG Skeet Multigames"
 		"updatedname"		"MG Skeet Multigames"
 	}
@@ -31,7 +31,7 @@
 	"mg_ski_mountain"
 	{
 		"workshop_id"		"3108056215"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"mg_ski_mountain"
 		"updatedname"		"mg_ski_mountain"
 	}
@@ -53,20 +53,20 @@
 	{
 		"workshop_id"		"3095601524"
 		"enabled"		"1"
-		"filename"		"mg_n64_goldeneye"
+		"filename"		"MG N64 Goldeneye"
 		"updatedname"		"MG N64 Goldeneye"
 	}
 	"mg_warmcup_headshot"
 	{
 		"workshop_id"		"3076765511"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"mg_warmcup_headshot"
 		"updatedname"		"mg_warmcup_headshot"
 	}
 	"Awp Submarine"
 	{
 		"workshop_id"		"3086424873"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"Awp Submarine"
 		"updatedname"		"Awp Submarine"
 	}
@@ -95,20 +95,20 @@
 	{
 		"workshop_id"		"3141424006"
 		"enabled"		"1"
-		"filename"		"mg_01minecraftminigame"
+		"filename"		"mg_01Minecraftminigame[V 1.23]"
 		"updatedname"		"mg_01Minecraftminigame[V 1.23]"
 	}
 	"WL Multigames"
 	{
 		"workshop_id"		"3156615586"
 		"enabled"		"1"
-		"filename"		"mg_wl_multigames"
+		"filename"		"WL Multigames"
 		"updatedname"		"WL Multigames"
 	}
 	"de_rats_1337"
 	{
 		"workshop_id"		"3072959547"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"de_rats_1337"
 		"updatedname"		"de_rats_1337"
 	}
@@ -116,20 +116,20 @@
 	{
 		"workshop_id"		"3183831654"
 		"enabled"		"1"
-		"filename"		"mg_copter_tower_v5"
+		"filename"		"Copter Tower [PVP]"
 		"updatedname"		"Copter Tower [PVP]"
 	}
 	"mg_legospace_multigames [MULTIGAMES]"
 	{
 		"workshop_id"		"3188024686"
 		"enabled"		"1"
-		"filename"		"mg_lego_multigames"
+		"filename"		"mg_legospace_multigames [MULTIGAMES]"
 		"updatedname"		"mg_legospace_multigames [MULTIGAMES]"
 	}
 	"de_festival"
 	{
 		"workshop_id"		"3163224842"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"de_festival"
 		"updatedname"		"de_festival"
 	}
@@ -137,7 +137,7 @@
 	{
 		"workshop_id"		"3213628872"
 		"enabled"		"1"
-		"filename"		"mg_sky_dust"
+		"filename"		"mg sky dust"
 		"updatedname"		"mg sky dust"
 	}
 	"mg_thc_lego_multimap"
@@ -151,14 +151,14 @@
 	{
 		"workshop_id"		"3223846548"
 		"enabled"		"1"
-		"filename"		"mg_summer_tower_v1"
+		"filename"		"mg_summer_tower"
 		"updatedname"		"mg_summer_tower"
 	}
 	"mg_Pudding_Multigames_cs2"
 	{
 		"workshop_id"		"3242033080"
 		"enabled"		"1"
-		"filename"		"mg_pudding_multigames"
+		"filename"		"mg_Pudding_Multigames_cs2"
 		"updatedname"		"mg_Pudding_Multigames_cs2"
 	}
 	"mg_ke_multigame"
@@ -167,13 +167,6 @@
 		"enabled"		"1"
 		"filename"		"mg_ke_multigame"
 		"updatedname"		"mg_ke_multigame"
-	}
-	"mg_slowdown"
-	{
-		"workshop_id"		"3278023104"
-		"enabled"		"1"
-		"filename"		"mg_slowdown"
-		"updatedname"		"mg_slowdown"
 	}
 	"mg_skytower_b2"
 	{
@@ -189,12 +182,12 @@
 		"filename"		"mg_wan_multigames"
 		"updatedname"		"mg_wan_multigames"
 	}
-	"MG_Ski_Mountain"
+	"mg_ski_mountain"
 	{
 		"workshop_id"		"3307925815"
 		"enabled"		"1"
-		"filename"		"MG_Ski_Mountain"
-		"updatedname"		"MG_Ski_Mountain"
+		"filename"		"mg_ski_mountain"
+		"updatedname"		"mg_ski_mountain"
 	}
 	"mg_skytower_b3"
 	{
