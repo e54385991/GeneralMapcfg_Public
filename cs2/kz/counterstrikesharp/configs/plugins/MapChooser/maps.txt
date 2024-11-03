@@ -108,7 +108,7 @@
 	"kz_tranquility"
 	{
 		"workshop_id"		"3085685607"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_tranquility"
 		"updatedname"		"kz_tranquility"
 	}
