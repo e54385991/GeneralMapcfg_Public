@@ -1,668 +1,199 @@
 "Maplist"
 {
-	"KZ_HUB"
+	"mg_multigames_devine_is_french"
 	{
-		"workshop_id"		"3070220367"
+		"workshop_id"		"3111582979"
 		"enabled"		"1"
-		"filename"		"KZ_HUB"
-		"updatedname"		"KZ_HUB"
+		"filename"		"mg_multigames_devine_is_french"
+		"updatedname"		"mg_multigames_devine_is_french"
 	}
-	"kz_grotto"
+	"MG Damons Headshot"
 	{
-		"workshop_id"		"3121168339"
+		"workshop_id"		"3090078601"
 		"enabled"		"1"
-		"filename"		"kz_grotto"
-		"updatedname"		"kz_grotto"
+		"filename"		"MG Damons Headshot"
+		"updatedname"		"MG Damons Headshot"
 	}
-	"kz_checkmate"
+	"MG Skeet Multigames"
 	{
-		"workshop_id"		"3070194623"
+		"workshop_id"		"3082120895"
 		"enabled"		"1"
-		"filename"		"kz_checkmate"
-		"updatedname"		"kz_checkmate"
+		"filename"		"MG Skeet Multigames"
+		"updatedname"		"MG Skeet Multigames"
 	}
-	"kz_igneous"
+	"mg_lego_multigames"
 	{
-		"workshop_id"		"3102712799"
+		"workshop_id"		"3097973183"
 		"enabled"		"1"
-		"filename"		"kz_igneous"
-		"updatedname"		"kz_igneous"
+		"filename"		"mg_lego_multigames"
+		"updatedname"		"mg_lego_multigames"
 	}
-	"kz_phamous"
+	"mg_ski_mountain"
 	{
-		"workshop_id"		"3104579274"
+		"workshop_id"		"3108056215"
 		"enabled"		"1"
-		"filename"		"kz_phamous"
-		"updatedname"		"kz_phamous"
+		"filename"		"mg_ski_mountain"
+		"updatedname"		"mg_ski_mountain"
 	}
-	"kz_serfdom"
+	"mg_swag_multigames_v7_1"
 	{
-		"workshop_id"		"3162361624"
+		"workshop_id"		"3101960156"
 		"enabled"		"1"
-		"filename"		"kz_serfdom"
-		"updatedname"		"kz_serfdom"
+		"filename"		"mg_swag_multigames_v7_1"
+		"updatedname"		"mg_swag_multigames_v7_1"
 	}
-	"kz_grotto"
+	"mg_skytower_v1"
 	{
-		"workshop_id"		"3121030590"
+		"workshop_id"		"3115140041"
 		"enabled"		"1"
-		"filename"		"kz_grotto"
-		"updatedname"		"kz_grotto"
+		"filename"		"mg_skytower_v1"
+		"updatedname"		"mg_skytower_v1"
 	}
-	"kz_sxb2_biewan"
+	"MG N64 Goldeneye"
 	{
-		"workshop_id"		"3076000218"
+		"workshop_id"		"3095601524"
 		"enabled"		"1"
-		"filename"		"kz_sxb2_biewan"
-		"updatedname"		"kz_sxb2_biewan"
+		"filename"		"MG N64 Goldeneye"
+		"updatedname"		"MG N64 Goldeneye"
 	}
-	"kz_sxb2_surfaintkz"
+	"mg_warmcup_headshot"
 	{
-		"workshop_id"		"3107580148"
+		"workshop_id"		"3076765511"
 		"enabled"		"1"
-		"filename"		"kz_sxb2_surfaintkz"
-		"updatedname"		"kz_sxb2_surfaintkz"
+		"filename"		"mg_warmcup_headshot"
+		"updatedname"		"mg_warmcup_headshot"
 	}
-	"kz_sxb2_poi"
+	"Awp Submarine"
 	{
-		"workshop_id"		"3107676358"
+		"workshop_id"		"3086424873"
 		"enabled"		"1"
-		"filename"		"kz_sxb2_poi"
-		"updatedname"		"kz_sxb2_poi"
+		"filename"		"Awp Submarine"
+		"updatedname"		"Awp Submarine"
 	}
-	"kz_sxb2_cxz"
+	"mg_17_battles_b1b"
 	{
-		"workshop_id"		"3083714192"
+		"workshop_id"		"3082448970"
 		"enabled"		"1"
-		"filename"		"kz_sxb2_cxz"
-		"updatedname"		"kz_sxb2_cxz"
+		"filename"		"mg_17_battles_b1b"
+		"updatedname"		"mg_17_battles_b1b"
 	}
-	"kz_communityjump3"
+	"fun_matrix"
 	{
-		"workshop_id"		"3202427394"
+		"workshop_id"		"3085513970"
 		"enabled"		"1"
-		"filename"		"kz_communityjump3"
-		"updatedname"		"kz_communityjump3"
+		"filename"		"fun_matrix"
+		"updatedname"		"fun_matrix"
 	}
-	"kz_dog"
+	"de_pushcircle2"
 	{
-		"workshop_id"		"3071622478"
+		"workshop_id"		"3092535095"
 		"enabled"		"1"
-		"filename"		"kz_dog"
-		"updatedname"		"kz_dog"
+		"filename"		"de_pushcircle2"
+		"updatedname"		"de_pushcircle2"
 	}
-	"kz_leto_v2"
+	"mg_01Minecraftminigame[V 1.23]"
 	{
-		"workshop_id"		"3070830826"
+		"workshop_id"		"3141424006"
 		"enabled"		"1"
-		"filename"		"kz_leto_v2"
-		"updatedname"		"kz_leto_v2"
+		"filename"		"mg_01Minecraftminigame[V 1.23]"
+		"updatedname"		"mg_01Minecraftminigame[V 1.23]"
 	}
-	"kz_bhop_Sunset_"
+	"WL Multigames"
 	{
-		"workshop_id"		"3116829308"
-		"enabled"		"0"
-		"filename"		"kz_bhop_Sunset_"
-		"updatedname"		"kz_bhop_Sunset_"
-	}
-	"kz_tranquility"
-	{
-		"workshop_id"		"3085685607"
-		"enabled"		"0"
-		"filename"		"kz_tranquility"
-		"updatedname"		"kz_tranquility"
-	}
-	"kz_victoria"
-	{
-		"workshop_id"		"3086304337"
-		"enabled"		"1"
-		"filename"		"kz_victoria"
-		"updatedname"		"kz_victoria"
-	}
-	"kz_colors"
-	{
-		"workshop_id"		"3160120310"
-		"enabled"		"1"
-		"filename"		"kz_colors"
-		"updatedname"		"kz_colors"
-	}
-	"kz_cg_lighthops"
-	{
-		"workshop_id"		"3211915934"
-		"enabled"		"1"
-		"filename"		"kz_cg_lighthops"
-		"updatedname"		"kz_cg_lighthops"
-	}
-	"kz_xmas2023"
-	{
-		"workshop_id"		"3124558836"
-		"enabled"		"1"
-		"filename"		"kz_xmas2023"
-		"updatedname"		"kz_xmas2023"
-	}
-	"kz_labour"
-	{
-		"workshop_id"		"3164403123"
-		"enabled"		"1"
-		"filename"		"kz_labour"
-		"updatedname"		"kz_labour"
-	}
-	"kz_niche"
-	{
-		"workshop_id"		"3160291769"
-		"enabled"		"1"
-		"filename"		"kz_niche"
-		"updatedname"		"kz_niche"
-	}
-	"kz_ehcivec_final"
-	{
-		"workshop_id"		"3082213334"
-		"enabled"		"1"
-		"filename"		"kz_ehcivec_final"
-		"updatedname"		"kz_ehcivec_final"
-	}
-	"kz_rc_stonehenge"
-	{
-		"workshop_id"		"3072219045"
-		"enabled"		"1"
-		"filename"		"kz_rc_stonehenge"
-		"updatedname"		"kz_rc_stonehenge"
-	}
-	"kz_alfama"
-	{
-		"workshop_id"		"3237967740"
-		"enabled"		"1"
-		"filename"		"kz_alfama"
-		"updatedname"		"kz_alfama"
-	}
-	"kz_sxb2_makabaka"
-	{
-		"workshop_id"		"3240801191"
-		"enabled"		"1"
-		"filename"		"kz_sxb2_makabaka"
-		"updatedname"		"kz_sxb2_makabaka"
-	}
-	"kz_ladderhell"
-	{
-		"workshop_id"		"3236545332"
-		"enabled"		"1"
-		"filename"		"kz_ladderhell"
-		"updatedname"		"kz_ladderhell"
-	}
-	"kz_sxb_onlyslide"
-	{
-		"workshop_id"		"3235790896"
-		"enabled"		"1"
-		"filename"		"kz_sxb_onlyslide"
-		"updatedname"		"kz_sxb_onlyslide"
-	}
-	"kz_ladderdespair"
-	{
-		"workshop_id"		"3234811937"
-		"enabled"		"1"
-		"filename"		"kz_ladderdespair"
-		"updatedname"		"kz_ladderdespair"
-	}
-	"kz_ambition"
-	{
-		"workshop_id"		"3231632688"
-		"enabled"		"1"
-		"filename"		"kz_ambition"
-		"updatedname"		"kz_ambition"
-	}
-	"kz_bhop_lego"
-	{
-		"workshop_id"		"3231517132"
-		"enabled"		"1"
-		"filename"		"kz_bhop_lego"
-		"updatedname"		"kz_bhop_lego"
-	}
-	"kz_lust"
-	{
-		"workshop_id"		"3218634538"
-		"enabled"		"1"
-		"filename"		"kz_lust"
-		"updatedname"		"kz_lust"
-	}
-	"kz_kiwi_hym"
-	{
-		"workshop_id"		"3083938271"
-		"enabled"		"1"
-		"filename"		"kz_kiwi_hym"
-		"updatedname"		"kz_kiwi_hym"
-	}
-	"kz_consequence"
-	{
-		"workshop_id"		"3250581189"
-		"enabled"		"1"
-		"filename"		"kz_consequence"
-		"updatedname"		"kz_consequence"
-	}
-	"kz_variety"
-	{
-		"workshop_id"		"3250132197"
-		"enabled"		"1"
-		"filename"		"kz_variety"
-		"updatedname"		"kz_variety"
-	}
-	"kz_misaka"
-	{
-		"workshop_id"		"3249152112"
-		"enabled"		"1"
-		"filename"		"kz_misaka"
-		"updatedname"		"kz_misaka"
-	}
-	"kz_inui"
-	{
-		"workshop_id"		"3248925340"
-		"enabled"		"1"
-		"filename"		"kz_inui"
-		"updatedname"		"kz_inui"
-	}
-	"kz_rc_femboy"
-	{
-		"workshop_id"		"3241944666"
-		"enabled"		"1"
-		"filename"		"kz_rc_femboy"
-		"updatedname"		"kz_rc_femboy"
-	}
-	"kz_hb_7864"
-	{
-		"workshop_id"		"3256277396"
-		"enabled"		"1"
-		"filename"		"kz_hb_7864"
-		"updatedname"		"kz_hb_7864"
-	}
-	"kz_superstructure"
-	{
-		"workshop_id"		"3266838066"
-		"enabled"		"0"
-		"filename"		"kz_superstructure"
-		"updatedname"		"kz_superstructure"
-	}
-	"kz_paradise"
-	{
-		"workshop_id"		"3276365521"
-		"enabled"		"1"
-		"filename"		"kz_paradise"
-		"updatedname"		"kz_paradise"
-	}
-	"kz_skytower"
-	{
-		"workshop_id"		"3276311176"
-		"enabled"		"1"
-		"filename"		"kz_skytower"
-		"updatedname"		"kz_skytower"
-	}
-	"kz_ghs"
-	{
-		"workshop_id"		"3278824777"
-		"enabled"		"0"
-		"filename"		"kz_ghs"
-		"updatedname"		"kz_ghs"
-	}
-	"kz_sketchie"
-	{
-		"workshop_id"		"3277779156"
-		"enabled"		"1"
-		"filename"		"kz_sketchie"
-		"updatedname"		"kz_sketchie"
-	}
-	"kz_sxb_sc_collapse"
-	{
-		"workshop_id"		"3277307618"
-		"enabled"		"1"
-		"filename"		"kz_sxb_sc_collapse"
-		"updatedname"		"kz_sxb_sc_collapse"
-	}
-	"kz_sonder"
-	{
-		"workshop_id"		"3276936665"
-		"enabled"		"1"
-		"filename"		"kz_sonder"
-		"updatedname"		"kz_sonder"
-	}
-	"kz_WazupSpencer[0.8]"
-	{
-		"workshop_id"		"3276767694"
-		"enabled"		"0"
-		"filename"		"kz_WazupSpencer[0.8]"
-		"updatedname"		"kz_WazupSpencer[0.8]"
-	}
-	"kz_sxb2_whoisadgod"
-	{
-		"workshop_id"		"3275804057"
-		"enabled"		"0"
-		"filename"		"kz_sxb2_whoisadgod"
-		"updatedname"		"kz_sxb2_whoisadgod"
-	}
-	"kz_bd_its_mygo"
-	{
-		"workshop_id"		"3285279291"
+		"workshop_id"		"3156615586"
 		"enabled"		"1"
-		"filename"		"kz_bd_its_mygo"
-		"updatedname"		"kz_bd_its_mygo"
+		"filename"		"WL Multigames"
+		"updatedname"		"WL Multigames"
 	}
-	"kz_haki_v2"
+	"de_rats_1337"
 	{
-		"workshop_id"		"3280439252"
+		"workshop_id"		"3072959547"
 		"enabled"		"1"
-		"filename"		"kz_haki_v2"
-		"updatedname"		"kz_haki_v2"
-	}
-	"kz_dam"
-	{
-		"workshop_id"		"3280262338"
-		"enabled"		"1"
-		"filename"		"kz_dam"
-		"updatedname"		"kz_dam"
-	}
-	"kz_hb_mute"
-	{
-		"workshop_id"		"3159507211"
-		"enabled"		"1"
-		"filename"		"kz_hb_mute"
-		"updatedname"		"kz_hb_mute"
-	}
-	"kz_variety_fix"
-	{
-		"workshop_id"		"3286019495"
-		"enabled"		"0"
-		"filename"		"kz_variety_fix"
-		"updatedname"		"kz_variety_fix"
-	}
-	"kz_moonlight"
-	{
-		"workshop_id"		"3287653784"
-		"enabled"		"1"
-		"filename"		"kz_moonlight"
-		"updatedname"		"kz_moonlight"
-	}
-	"kz_deuxme"
-	{
-		"workshop_id"		"3291309096"
-		"enabled"		"1"
-		"filename"		"kz_deuxme"
-		"updatedname"		"kz_deuxme"
-	}
-	"kz_train"
-	{
-		"workshop_id"		"3290473039"
-		"enabled"		"1"
-		"filename"		"kz_train"
-		"updatedname"		"kz_train"
-	}
-	"kz_rome"
-	{
-		"workshop_id"		"3294243116"
-		"enabled"		"1"
-		"filename"		"kz_rome"
-		"updatedname"		"kz_rome1"
-	}
-	"kz_concord"
-	{
-		"workshop_id"		"3287874815"
-		"enabled"		"1"
-		"filename"		"kz_concord"
-		"updatedname"		"kz_concord"
-	}
-	"kz_isuper"
-	{
-		"workshop_id"		"3100988369"
-		"enabled"		"1"
-		"filename"		"kz_isuper"
-		"updatedname"		"kz_isuper"
-	}
-	"kz_sxb2_misato"
-	{
-		"workshop_id"		"3082850001"
-		"enabled"		"1"
-		"filename"		"kz_sxb2_misato"
-		"updatedname"		"kz_sxb2_misato"
-	}
-	"kz_gus"
-	{
-		"workshop_id"		"3082144971"
-		"enabled"		"1"
-		"filename"		"kz_gus"
-		"updatedname"		"kz_gus"
-	}
-	"kz_simplyhard"
-	{
-		"workshop_id"		"3078311932"
-		"enabled"		"1"
-		"filename"		"kz_simplyhard"
-		"updatedname"		"kz_simplyhard"
-	}
-	"kz_nomibo"
-	{
-		"workshop_id"		"3077122656"
-		"enabled"		"1"
-		"filename"		"kz_nomibo"
-		"updatedname"		"kz_nomibo"
-	}
-	"kz_sxb2_despacito"
-	{
-		"workshop_id"		"3075242470"
-		"enabled"		"1"
-		"filename"		"kz_sxb2_despacito"
-		"updatedname"		"kz_sxb2_despacito"
-	}
-	"kz_ggsh"
-	{
-		"workshop_id"		"3072744536"
-		"enabled"		"1"
-		"filename"		"kz_ggsh"
-		"updatedname"		"kz_ggsh"
-	}
-	"kz_ltt"
-	{
-		"workshop_id"		"3072699538"
-		"enabled"		"1"
-		"filename"		"kz_ltt"
-		"updatedname"		"kz_ltt"
-	}
-	"kz_sxb2_remake"
-	{
-		"workshop_id"		"3071551126"
-		"enabled"		"1"
-		"filename"		"kz_sxb2_remake"
-		"updatedname"		"kz_sxb2_remake"
-	}
-	"kz_grassworld"
-	{
-		"workshop_id"		"3099807884"
-		"enabled"		"1"
-		"filename"		"kz_grassworld"
-		"updatedname"		"kz_grassworld"
-	}
-	"kz_rennzoku"
-	{
-		"workshop_id"		"3323894676"
-		"enabled"		"1"
-		"filename"		"kz_rennzoku"
-		"updatedname"		"kz_rennzoku"
-	}
-	"kz_combobreaker"
-	{
-		"workshop_id"		"3329139574"
-		"enabled"		"1"
-		"filename"		"kz_combobreaker"
-		"updatedname"		"kz_combobreaker"
-	}
-	"kz_slide_dydanhomon"
-	{
-		"workshop_id"		"3329135256"
-		"enabled"		"1"
-		"filename"		"kz_slide_dydanhomon"
-		"updatedname"		"kz_slide_dydanhomon"
-	}
-	"kz_kzro_syotiles"
-	{
-		"workshop_id"		"3329112841"
-		"enabled"		"1"
-		"filename"		"kz_kzro_syotiles"
-		"updatedname"		"kz_kzro_syotiles"
-	}
-        "kz_16pillars"
-	{
-		"workshop_id"		"3332836301"
-		"enabled"		"1"
-		"filename"		"kz_16pillars"
-		"updatedname"		"kz_16pillars"
-	}
-        "kz_onlime"
-	{
-		"workshop_id"		"3333177952"
-		"enabled"		"1"
-		"filename"		"kz_onlime"
-		"updatedname"		"kz_onlime"
-	}
-        "bkz_iota"
-	{
-		"workshop_id"		"3240650433"
-		"enabled"		"1"
-		"filename"		"bkz_iota"
-		"updatedname"		"bkz_iota"
-	}
-        "kz_obsidian"
-	{
-		"workshop_id"		"3332796414"
-		"enabled"		"1"
-		"filename"		"kz_obsidian"
-		"updatedname"		"kz_obsidian"
-	}
-        "kz_rc_twotowers"
-	{
-		"workshop_id"		"3083509404"
-		"enabled"		"1"
-		"filename"		"kz_rc_twotowers"
-		"updatedname"		"kz_rc_twotowers"
-	}
-        "kz_sxb_sc_surf"
-	{
-		"workshop_id"		"3241559107"
-		"enabled"		"1"
-		"filename"		"kz_sxb_sc_surf"
-		"updatedname"		"kz_sxb_sc_surf"
-	}
-        "bkz_goldbhop"
-	{
-		"workshop_id"		"3214939683"
-		"enabled"		"1"
-		"filename"		"bkz_goldbhop"
-		"updatedname"		"bkz_goldbhop"
-	}
-        "bkz_impulse"
-	{
-		"workshop_id"		"3257374814"
-		"enabled"		"1"
-		"filename"		"bkz_impulse"
-		"updatedname"		"bkz_impulse"
-	}
-        "kz_celestial"
-	{
-		"workshop_id"		"3343117229"
-		"enabled"		"1"
-		"filename"		"kz_celestial"
-		"updatedname"		"kz_celestial"
-	}
-        "kz_antharas"
-	{
-		"workshop_id"		"3338102767"
-		"enabled"		"1"
-		"filename"		"kz_antharas"
-		"updatedname"		"kz_antharas"
-	}
-        "kz_dima"
-	{
-		"workshop_id"		"3343029934"
-		"enabled"		"0"
-		"filename"		"kz_dima"
-		"updatedname"		"kz_dima"
+		"filename"		"de_rats_1337"
+		"updatedname"		"de_rats_1337"
 	}
-        "KZ_KEY"
+	"Copter Tower [PVP]"
 	{
-		"workshop_id"		"3344417199"
+		"workshop_id"		"3183831654"
 		"enabled"		"1"
-		"filename"		"KZ_KEY"
-		"updatedname"		"KZ_KEY"
+		"filename"		"Copter Tower [PVP]"
+		"updatedname"		"Copter Tower [PVP]"
 	}
-        "kz_apasanka"
+	"mg_legospace_multigames [MULTIGAMES]"
 	{
-		"workshop_id"		"3346109633"
+		"workshop_id"		"3188024686"
 		"enabled"		"1"
-		"filename"		"kz_apasanka"
-		"updatedname"		"kz_apasanka"
+		"filename"		"mg_legospace_multigames [MULTIGAMES]"
+		"updatedname"		"mg_legospace_multigames [MULTIGAMES]"
 	}
-        "kz_demonhours"
+	"de_festival"
 	{
-		"workshop_id"		"3346247176"
+		"workshop_id"		"3163224842"
 		"enabled"		"1"
-		"filename"		"kz_demonhours"
-		"updatedname"		"kz_demonhours"
+		"filename"		"de_festival"
+		"updatedname"		"de_festival"
 	}
-        "kz_moorerutan"
+	"mg sky dust"
 	{
-	        "workshop_id"		"3348711619"
+		"workshop_id"		"3213628872"
 		"enabled"		"1"
-		"filename"		"kz_moorerutan"
-		"updatedname"		"kz_moorerutan"
+		"filename"		"mg sky dust"
+		"updatedname"		"mg sky dust"
 	}
-        "kz_opus"
+	"mg_thc_lego_multimap"
 	{
-	        "workshop_id"		"3349672933"
+		"workshop_id"		"3218692982"
 		"enabled"		"1"
-		"filename"		"kz_opus"
-		"updatedname"		"kz_opus"
+		"filename"		"mg_thc_lego_multimap"
+		"updatedname"		"mg_thc_lego_multimap"
 	}
-        "kz_epiphany_v2"
+	"mg_summer_tower"
 	{
-	        "workshop_id"		"3350183413"
+		"workshop_id"		"3223846548"
 		"enabled"		"1"
-		"filename"		"kz_epiphany_v2"
-		"updatedname"		"kz_epiphany_v2"
+		"filename"		"mg_summer_tower"
+		"updatedname"		"mg_summer_tower"
 	}
-        "kz_sanctuary"
+	"mg_Pudding_Multigames_cs2"
 	{
-	        "workshop_id"		"3350663039"
+		"workshop_id"		"3242033080"
 		"enabled"		"1"
-		"filename"		"kz_sanctuary"
-		"updatedname"		"kz_sanctuary"
+		"filename"		"mg_Pudding_Multigames_cs2"
+		"updatedname"		"mg_Pudding_Multigames_cs2"
 	}
-        "kz_spire"
+	"mg_ke_multigame"
 	{
-	        "workshop_id"		"3352534882"
+		"workshop_id"		"3265016761"
 		"enabled"		"1"
-		"filename"		"kz_spire"
-		"updatedname"		"kz_spire"
+		"filename"		"mg_ke_multigame"
+		"updatedname"		"mg_ke_multigame"
 	}
-        "kz_summercliff2_go"
+	"mg_skytower_b2"
 	{
-	        "workshop_id"		"3353950265"
+		"workshop_id"		"3287466367"
 		"enabled"		"1"
-		"filename"		"kz_summercliff2_go"
-		"updatedname"		"kz_summercliff2_go"
+		"filename"		"mg_skytower_b2"
+		"updatedname"		"mg_skytower_b2"
 	}
-        "kz_dethroned"
+	"mg_wan_multigames"
 	{
-	        "workshop_id"		"3354073065"
+		"workshop_id"		"3286925985"
 		"enabled"		"1"
-		"filename"		"kz_dethroned"
-		"updatedname"		"kz_dethroned"
+		"filename"		"mg_wan_multigames"
+		"updatedname"		"mg_wan_multigames"
 	}
-        "kz_longjumps_space"
+	"mg_ski_mountain"
 	{
-	        "workshop_id"		"3354242306"
+		"workshop_id"		"3307925815"
 		"enabled"		"1"
-		"filename"		"kz_longjumps_space"
-		"updatedname"		"kz_longjumps_space"
+		"filename"		"mg_ski_mountain"
+		"updatedname"		"mg_ski_mountain"
 	}
-        "kz_lmn"
+	"mg_skytower_b3"
 	{
-	        "workshop_id"		"3355230567"
+		"workshop_id"		"3306926773"
 		"enabled"		"1"
-		"filename"		"kz_lmn"
-		"updatedname"		"kz_lmn"
+		"filename"		"mg_skytower_b3"
+		"updatedname"		"mg_skytower_b3"
 	}
 }
