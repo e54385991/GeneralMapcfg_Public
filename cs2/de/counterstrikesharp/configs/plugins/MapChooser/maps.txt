@@ -21,4 +21,54 @@
 		"filename"		"de_vertigo"
 		"updatedname"		"de_vertigo"
 	}
+	"de_mirage"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"de_mirage"
+		"updatedname"		"de_mirage"
+	}
+	"de_inferno"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"de_inferno"
+		"updatedname"		"de_inferno"
+	}
+	"de_ancient"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"de_ancient"
+		"updatedname"		"de_ancient"
+	}
+	"de_overpass"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"de_overpass"
+		"updatedname"		"de_overpass"
+	}
+	"de_thera"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"de_thera"
+		"updatedname"		"de_thera"
+	}
+	"cs_italy"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"cs_italy"
+		"updatedname"		"cs_italy"
+	}
+	"cs_office"
+	{
+		"workshop_id"		"0"
+		"enabled"		"1"
+		"filename"		"cs_office"
+		"updatedname"		"cs_office"
+	}
 }
+
