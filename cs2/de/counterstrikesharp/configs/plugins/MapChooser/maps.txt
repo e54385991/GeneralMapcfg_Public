@@ -49,12 +49,12 @@
 		"filename"		"de_overpass"
 		"updatedname"		"de_overpass"
 	}
-	"de_thera"
+	"de_train"
 	{
 		"workshop_id"		"0"
 		"enabled"		"1"
-		"filename"		"de_thera"
-		"updatedname"		"de_thera"
+		"filename"		"de_train"
+		"updatedname"		"de_train"
 	}
 	"cs_italy"
 	{
