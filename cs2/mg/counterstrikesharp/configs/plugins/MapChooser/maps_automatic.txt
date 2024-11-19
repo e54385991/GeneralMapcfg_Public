@@ -196,4 +196,11 @@
 		"filename"		"mg_skytower_b3"
 		"updatedname"		"mg_skytower_b3"
 	}
+	"mg_super_tower_v3b"
+	{
+		"workshop_id"		"3363060792"
+		"enabled"		"1"
+		"filename"		"mg_super_tower_v3b"
+		"updatedname"		"mg_super_tower_v3b"
+	}
 }
