@@ -2,7 +2,7 @@
     "VoteStartTime": 3.0,
     "AllowExtend": true,
     "ExtendTimeStep": 20.0,
-    "ExtendLimit": 10
+    "ExtendLimit": 8,
     "ExcludeMaps":  5,
     "IncludeMaps": 5,
     "IncludeCurrent": false,
