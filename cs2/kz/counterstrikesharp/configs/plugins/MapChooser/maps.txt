@@ -637,13 +637,6 @@
 		"filename"		"kz_spire"
 		"updatedname"		"kz_spire"
 	}
-        "kz_summercliff2_go"
-	{
-	        "workshop_id"		"3353950265"
-		"enabled"		"1"
-		"filename"		"kz_summercliff2_go"
-		"updatedname"		"kz_summercliff2_go"
-	}
         "kz_dethroned"
 	{
 	        "workshop_id"		"3354073065"
@@ -651,18 +644,81 @@
 		"filename"		"kz_dethroned"
 		"updatedname"		"kz_dethroned"
 	}
-        "kz_longjumps_space"
-	{
-	        "workshop_id"		"3354242306"
-		"enabled"		"1"
-		"filename"		"kz_longjumps_space"
-		"updatedname"		"kz_longjumps_space"
-	}
         "kz_lmn"
 	{
 	        "workshop_id"		"3355230567"
 		"enabled"		"1"
 		"filename"		"kz_lmn"
 		"updatedname"		"kz_lmn"
+	}
+	"kz_longjumps_space"
+	{
+		"workshop_id"		"3354242306"
+		"enabled"		"1"
+		"filename"		"kz_longjumps_space"
+		"updatedname"		"kz_longjumps_space"
+	}
+	"kz_dethroned"
+	{
+		"workshop_id"		"3354073065"
+		"enabled"		"1"
+		"filename"		"kz_dethroned"
+		"updatedname"		"kz_dethroned"
+	}
+	"kz_summercliff2"
+	{
+		"workshop_id"		"3353950265"
+		"enabled"		"1"
+		"filename"		"kz_summercliff2"
+		"updatedname"		"kz_summercliff2"
+	}
+	"kz_royalcapital"
+	{
+		"workshop_id"		"3366541429"
+		"enabled"		"1"
+		"filename"		"kz_royalcapital"
+		"updatedname"		"kz_royalcapital"
+	}
+	"kz_faded"
+	{
+		"workshop_id"		"3366047597"
+		"enabled"		"1"
+		"filename"		"kz_faded"
+		"updatedname"		"kz_faded"
+	}
+	"kz_alien_city"
+	{
+		"workshop_id"		"3361344867"
+		"enabled"		"1"
+		"filename"		"kz_alien_city"
+		"updatedname"		"kz_alien_city"
+	}
+	"kz_aether_fix"
+	{
+		"workshop_id"		"3360787808"
+		"enabled"		"1"
+		"filename"		"kz_aether_fix"
+		"updatedname"		"kz_aether_fix"
+	}
+	"kz_2fast"
+	{
+		"workshop_id"		"3360229091"
+		"enabled"		"1"
+		"filename"		"kz_2fast"
+		"updatedname"		"kz_2fast"
+	}
+	"kz_dzy_beyond_v2"
+	{
+		"workshop_id"		"3357772969"
+		"enabled"		"1"
+		"filename"		"kz_dzy_beyond_v2"
+		"updatedname"		"kz_dzy_beyond_v2"
+	}
+	"kz_sxb2_isbhop"
+	{
+		"workshop_id"		"3357361972"
+		"enabled"		"1"
+		"filename"		"kz_sxb2_isbhop"
+		"updatedname"		"kz_sxb2_isbhop"
 	}
 }
