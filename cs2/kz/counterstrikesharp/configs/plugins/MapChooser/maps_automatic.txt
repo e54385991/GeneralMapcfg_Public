@@ -511,6 +511,13 @@
 		"filename"		"kz_kzro_syotiles"
 		"updatedname"		"kz_kzro_syotiles"
 	}
+	"kz_obsidian"
+	{
+		"workshop_id"		"3332796414"
+		"enabled"		"1"
+		"filename"		"kz_obsidian"
+		"updatedname"		"kz_obsidian"
+	}
 	"kz_16pillars"
 	{
 		"workshop_id"		"3332836301"
@@ -532,12 +539,12 @@
 		"filename"		"bkz_iota"
 		"updatedname"		"bkz_iota"
 	}
-	"kz_obsidian"
+	"kz_rc_twotowers"
 	{
-		"workshop_id"		"3332796414"
+		"workshop_id"		"3083509404"
 		"enabled"		"1"
-		"filename"		"kz_obsidian"
-		"updatedname"		"kz_obsidian"
+		"filename"		"kz_rc_twotowers"
+		"updatedname"		"kz_rc_twotowers"
 	}
 	"kz_sxb_sc_surf"
 	{
@@ -545,13 +552,6 @@
 		"enabled"		"1"
 		"filename"		"kz_sxb_sc_surf"
 		"updatedname"		"kz_sxb_sc_surf"
-	}
-	"kz_rc_twotowers"
-	{
-		"workshop_id"		"3083509404"
-		"enabled"		"1"
-		"filename"		"kz_rc_twotowers"
-		"updatedname"		"kz_rc_twotowers"
 	}
 	"bkz_goldbhop"
 	{
@@ -567,13 +567,6 @@
 		"filename"		"bkz_impulse"
 		"updatedname"		"bkz_impulse"
 	}
-	"kz_celestial"
-	{
-		"workshop_id"		"3343117229"
-		"enabled"		"1"
-		"filename"		"kz_celestial"
-		"updatedname"		"kz_celestial"
-	}
 	"kz_antharas"
 	{
 		"workshop_id"		"3338102767"
@@ -581,19 +574,26 @@
 		"filename"		"kz_antharas"
 		"updatedname"		"kz_antharas"
 	}
+	"kz_celestial"
+	{
+		"workshop_id"		"3343117229"
+		"enabled"		"1"
+		"filename"		"kz_celestial"
+		"updatedname"		"kz_celestial"
+	}
+	"KZ_KEY"
+	{
+		"workshop_id"		"3344417199"
+		"enabled"		"1"
+		"filename"		"KZ_KEY"
+		"updatedname"		"KZ_KEY"
+	}
 	"dima onlyup (kz_dima)"
 	{
 		"workshop_id"		"3343029934"
 		"enabled"		"1"
 		"filename"		"dima onlyup (kz_dima)"
 		"updatedname"		"dima onlyup (kz_dima)"
-	}
-	"kz_key"
-	{
-		"workshop_id"		"3344417199"
-		"enabled"		"1"
-		"filename"		"kz_key"
-		"updatedname"		"kz_key"
 	}
 	"kz_apasanka"
 	{
@@ -636,82 +636,5 @@
 		"enabled"		"1"
 		"filename"		"kz_sanctuary"
 		"updatedname"		"kz_sanctuary"
-	}
-	"kz_longjumps_space"
-	{
-		"workshop_id"		"3354242306"
-		"enabled"		"1"
-		"filename"		"kz_longjumps_space"
-		"updatedname"		"kz_longjumps_space"
-	}
-	"kz_dethroned"
-	{
-		"workshop_id"		"3354073065"
-		"enabled"		"1"
-		"filename"		"kz_dethroned"
-		"updatedname"		"kz_dethroned"
-	}
-	"kz_summercliff2"
-	{
-		"workshop_id"		"3353950265"
-		"enabled"		"1"
-		"filename"		"kz_summercliff2"
-		"updatedname"		"kz_summercliff2"
-	}
-	"kz_royalcapital"
-	{
-		"workshop_id"		"3366541429"
-		"enabled"		"1"
-		"filename"		"kz_royalcapital"
-		"updatedname"		"kz_royalcapital"
-	}
-	"kz_faded"
-	{
-		"workshop_id"		"3366047597"
-		"enabled"		"1"
-		"filename"		"kz_faded"
-		"updatedname"		"kz_faded"
-	}
-	"kz_alien_city"
-	{
-		"workshop_id"		"3361344867"
-		"enabled"		"1"
-		"filename"		"kz_alien_city"
-		"updatedname"		"kz_alien_city"
-	}
-	"kz_aether_fix"
-	{
-		"workshop_id"		"3360787808"
-		"enabled"		"1"
-		"filename"		"kz_aether_fix"
-		"updatedname"		"kz_aether_fix"
-	}
-	"kz_2fast"
-	{
-		"workshop_id"		"3360229091"
-		"enabled"		"1"
-		"filename"		"kz_2fast"
-		"updatedname"		"kz_2fast"
-	}
-	"kz_dzy_beyond_v2"
-	{
-		"workshop_id"		"3357772969"
-		"enabled"		"1"
-		"filename"		"kz_dzy_beyond_v2"
-		"updatedname"		"kz_dzy_beyond_v2"
-	}
-	"kz_sxb2_isbhop"
-	{
-		"workshop_id"		"3357361972"
-		"enabled"		"1"
-		"filename"		"kz_sxb2_isbhop"
-		"updatedname"		"kz_sxb2_isbhop"
-	}
-	"kz_lmn"
-	{
-		"workshop_id"		"3355230567"
-		"enabled"		"1"
-		"filename"		"kz_lmn"
-		"updatedname"		"kz_lmn"
 	}
 }
