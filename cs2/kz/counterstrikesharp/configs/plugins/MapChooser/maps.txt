@@ -381,7 +381,7 @@
 	"kz_deuxme"
 	{
 		"workshop_id"		"3291309096"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_deuxme"
 		"updatedname"		"kz_deuxme"
 	}
