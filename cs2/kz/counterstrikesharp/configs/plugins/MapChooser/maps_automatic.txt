@@ -714,4 +714,25 @@
 		"filename"		"kz_lmn"
 		"updatedname"		"kz_lmn"
 	}
+	"kz_vly_nantu_d"
+	{
+		"workshop_id"		"3368783049"
+		"enabled"		"1"
+		"filename"		"kz_vly_nantu_d"
+		"updatedname"		"kz_vly_nantu_d"
+	}
+	"kz_leviathan"
+	{
+		"workshop_id"		"3374560468"
+		"enabled"		"1"
+		"filename"		"kz_leviathan"
+		"updatedname"		"kz_leviathan"
+	}
+	"kZ_castle"
+	{
+		"workshop_id"		"3371283562"
+		"enabled"		"1"
+		"filename"		"kZ_castle"
+		"updatedname"		"kZ_castle"
+	}
 }
