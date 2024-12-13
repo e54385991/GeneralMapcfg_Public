@@ -721,4 +721,25 @@
 		"filename"		"kz_sxb2_isbhop"
 		"updatedname"		"kz_sxb2_isbhop"
 	}
+	"kz_vly_nantu_d"
+	{
+		"workshop_id"		"3368783049"
+		"enabled"		"1"
+		"filename"		"kz_vly_nantu_d"
+		"updatedname"		"kz_vly_nantu_d"
+	}
+	"kz_leviathan"
+	{
+		"workshop_id"		"3374560468"
+		"enabled"		"1"
+		"filename"		"kz_leviathan"
+		"updatedname"		"kz_leviathan"
+	}
+	"kz_castle"
+	{
+		"workshop_id"		"3371283562"
+		"enabled"		"1"
+		"filename"		"kz_castle"
+		"updatedname"		"kz_castle"
+	}
 }
