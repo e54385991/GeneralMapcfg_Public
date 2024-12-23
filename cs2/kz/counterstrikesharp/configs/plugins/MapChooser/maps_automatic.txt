@@ -735,4 +735,18 @@
 		"filename"		"kZ_castle"
 		"updatedname"		"kZ_castle"
 	}
+	"kz_penis"
+	{
+		"workshop_id"		"3381189372"
+		"enabled"		"1"
+		"filename"		"kz_penis"
+		"updatedname"		"kz_penis"
+	}
+	"kz_sxb2_onlyslide"
+	{
+		"workshop_id"		"3370381464"
+		"enabled"		"1"
+		"filename"		"kz_sxb2_onlyslide"
+		"updatedname"		"kz_sxb2_onlyslide"
+	}
 }
