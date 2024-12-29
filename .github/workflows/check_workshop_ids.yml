@@ -3,7 +3,7 @@ name: Check Steam Workshop IDs
 on:
   push:
     paths:
-      - 'cs2/counterstrikesharp/configs/plugins/MapChooser/maps.txt'  # 当 maps.txt 文件发生变化时触发
+      - 'cs2/**/counterstrikesharp/configs/plugins/MapChooser/maps.txt'  # 当任何 maps.txt 文件发生变化时触发
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -31,10 +31,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
+    - name: 查找所有 maps.txt 文件
+      id: find_maps
+      run: |
+        map_files=$(find cs2 -path "*/counterstrikesharp/configs/plugins/MapChooser/maps.txt")
+        echo "map_files=$map_files" >> $GITHUB_ENV
+
     - name: 运行检查脚本
       id: check_script
       run: |
-        python scripts/check_workshop_ids.py cs2/counterstrikesharp/configs/plugins/MapChooser/maps.txt
+        for map_file in ${{ env.map_files }}; do
+          python scripts/check_workshop_ids.py $map_file || echo "$map_file" >> failed_maps.txt
+        done
       continue-on-error: true
 
     - name: 读取不可用的 IDs
@@ -44,6 +52,10 @@ jobs:
         if [ -f unavailable_ids.txt ]; then
           ids=$(cat unavailable_ids.txt)
           echo "unavailable_ids=$ids" >> $GITHUB_ENV
+        fi
+        if [ -f failed_maps.txt ]; then
+          failed_maps=$(cat failed_maps.txt)
+          echo "failed_maps=$failed_maps" >> $GITHUB_ENV
         fi
 
     - name: 输出结果
@@ -66,6 +78,9 @@ jobs:
 
           不可用 ID 列表:
           ${{ env.unavailable_ids }}
+
+          受影响的 maps.txt 文件:
+          ${{ env.failed_maps }}
           
           可能是临时性的调整,请审核,并确认更改。
         branch: 'disable-unavailable-ids'
