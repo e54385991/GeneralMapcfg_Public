@@ -1,6 +1,7 @@
 import requests
 import sys
 import re
+import hashlib
 
 def parse_keyvalue(content):
     """解析 KeyValue 格式的内容，并转换为字典"""

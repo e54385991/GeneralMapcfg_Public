@@ -3,23 +3,31 @@ name: Check Steam Workshop IDs
 on:
   push:
     paths:
-      - 'cs2/**/counterstrikesharp/configs/plugins/MapChooser/maps.txt'  # 当任何 maps.txt 文件发生变化时触发
+      - 'cs2/**/MapChooser/maps.txt'  # 当任何 maps.txt 文件发生变化时触发
   workflow_dispatch:  # 允许手动触发
 
 jobs:
   check-workshop-ids:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        maps_path:
+          - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+          - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+          # 在这里添加更多的 maps.txt 文件路径
 
     steps:
     - name: 检出代码库
       uses: actions/checkout@v3
       with:
         ref: master  # 确保检出的是主分支
+        fetch-depth: 0  # 获取完整提交历史
 
     - name: 删除现有的 disable-unavailable-ids 分支
       run: |
-        git branch -D disable-unavailable-ids || true
-        git push origin --delete disable-unavailable-ids || true
+        branch_name="disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)"
+        git branch -D $branch_name || true
+        git push origin --delete $branch_name || true
 
     - name: 设置 Python 环境
       uses: actions/setup-python@v4
@@ -31,34 +39,42 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: 查找并保存所有 maps.txt 文件路径
-      id: find_maps
+    - name: 运行检查脚本
+      id: check_script
       run: |
-        find cs2 -path "*/counterstrikesharp/configs/plugins/MapChooser/maps.txt" > map_files.txt
+        python scripts/check_workshop_ids.py ${{ matrix.maps_path }}
+      continue-on-error: true
 
-    - name: 逐个检查文件并创建拉取请求
-      id: check_and_create_pr
+    - name: 读取不可用的 IDs
+      if: failure()
+      id: read_unavailable_ids
       run: |
-        while IFS= read -r map_file; do
-          # 运行检查脚本
-          python scripts/check_workshop_ids.py "$map_file" || touch failed.txt
+        if [ -f unavailable_ids.txt ]; then
+          ids=$(cat unavailable_ids.txt)
+          echo "unavailable_ids=$ids" >> $GITHUB_ENV
+        fi
 
-          # 如果有不可用的 IDs，创建拉取请求
-          if [ -f unavailable_ids.txt ]; then
-            ids=$(cat unavailable_ids.txt)
-            failed_maps="$map_file"
-            
-            # 设置 GitHub 环境变量
-            echo "unavailable_ids=$ids" >> $GITHUB_ENV
-            echo "failed_maps=$failed_maps" >> $GITHUB_ENV
+    - name: 输出结果
+      run: |
+        if [ "${{ steps.check_script.outcome }}" == "failure" ]; then
+          echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
+          exit 1
+        else:
+          echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
+        fi
 
-            # 创建拉取请求
-            gh pr create --title "[自动]禁用不可用的 Steam Workshop IDs" \
-                         --body "部分 Steam Workshop IDs 经系统检测当前不可用。已将其对应的 enabled 字段从 1 改为 0。\n\n不可用 ID 列表:\n${{ env.unavailable_ids }}\n\n受影响的 maps.txt 文件:\n${{ env.failed_maps }}\n\n可能是临时性的调整,请审核,并确认更改。" \
-                         --head disable-unavailable-ids \
-                         --base master
-          fi
+    - name: 创建拉取请求
+      if: failure()  # 仅在上一步失败时触发
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: '禁用不可用的 Steam Workshop IDs'
+        title: '禁用不可用的 Steam Workshop IDs'
+        body: |
+          部分 Steam Workshop IDs 不可用。已将其对应的 enabled 字段从 1 改为 0。
 
-          # 清理临时文件
-          rm -f unavailable_ids.txt failed.txt
-        done < map_files.txt
+          不可用 ID 列表:
+          ${{ env.unavailable_ids }}
+          
+          请审核并确认更改。
+        branch: 'disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)'
+        base: master
