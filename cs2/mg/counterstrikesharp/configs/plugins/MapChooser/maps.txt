@@ -185,7 +185,7 @@
 	"mg_wan_multigames"
 	{
 		"workshop_id"		"3286925985"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"mg_wan_multigames"
 		"updatedname"		"mg_wan_multigames"
 	}
