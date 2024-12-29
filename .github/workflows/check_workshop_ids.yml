@@ -1,0 +1,74 @@
+name: Check Steam Workshop IDs
+
+on:
+    paths:
+      - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt' 
+      - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  check-workshop-ids:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码库
+      uses: actions/checkout@v3
+      with:
+        ref: master  # 确保检出的是主分支
+
+    - name: 删除现有的 disable-unavailable-ids 分支
+      run: |
+        git branch -D disable-unavailable-ids || true
+        git push origin --delete disable-unavailable-ids || true
+
+    - name: 设置 Python 环境
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: 安装依赖
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: 运行检查脚本
+      id: check_script
+      run: |
+        for file in cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt; do
+          python scripts/check_workshop_ids.py $file || exit 1
+        done
+      continue-on-error: true
+
+    - name: 读取不可用的 IDs
+      if: failure()
+      id: read_unavailable_ids
+      run: |
+        if [ -f unavailable_ids.txt ]; then
+          ids=$(cat unavailable_ids.txt)
+          echo "unavailable_ids=$ids" >> $GITHUB_ENV
+        fi
+
+    - name: 输出结果
+      run: |
+        if [ "${{ steps.check_script.outcome }}" == "failure" ]; then
+          echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
+          exit 1
+        else:
+          echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
+        fi
+
+    - name: 创建拉取请求
+      if: failure()  # 仅在上一步失败时触发
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: '禁用不可用的 Steam Workshop IDs'
+        title: '[自动]禁用不可用的 Steam Workshop IDs'
+        body: |
+          部分 Steam Workshop IDs 经系统检测当前不可用。已将其对应的 enabled 字段从 1 改为 0。
+
+          不可用 ID 列表:
+          ${{ env.unavailable_ids }}
+          
+          可能是临时性的调整,请审核,并确认更改。
+        branch: 'disable-unavailable-ids'
+        base: master
