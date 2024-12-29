@@ -31,18 +31,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: 查找所有 maps.txt 文件
+    - name: 查找并保存所有 maps.txt 文件路径
       id: find_maps
       run: |
-        map_files=$(find cs2 -path "*/counterstrikesharp/configs/plugins/MapChooser/maps.txt")
-        echo "map_files=$map_files" >> $GITHUB_ENV
+        find cs2 -path "*/counterstrikesharp/configs/plugins/MapChooser/maps.txt" > map_files.txt
 
     - name: 运行检查脚本
       id: check_script
       run: |
-        for map_file in ${{ env.map_files }}; do
-          python scripts/check_workshop_ids.py $map_file || echo "$map_file" >> failed_maps.txt
-        done
+        while IFS= read -r map_file; do
+          python scripts/check_workshop_ids.py "$map_file" || echo "$map_file" >> failed_maps.txt
+        done < map_files.txt
       continue-on-error: true
 
     - name: 读取不可用的 IDs
