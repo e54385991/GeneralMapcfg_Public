@@ -61,7 +61,7 @@ jobs:
       run: |
         if [ -s unavailable_ids.txt ]; then
           echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
-        else:
+        else
           echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
         fi
 
