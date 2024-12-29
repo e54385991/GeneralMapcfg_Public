@@ -1,10 +1,10 @@
 name: Check Steam Workshop IDs
 
 on:
-    paths:
-      - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt' 
-      - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
-  workflow_dispatch:  # 允许手动触发
+  paths:
+    - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt' 
+    - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   check-workshop-ids:
