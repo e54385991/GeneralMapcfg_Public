@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         maps_path:
-          - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
-          - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+          - 'cs2/counterstrikesharp/configs/plugins/MapChooser/maps1.txt'
+          - 'cs2/counterstrikesharp/configs/plugins/MapChooser/maps2.txt'
           # 在这里添加更多的 maps.txt 文件路径
 
     steps:
@@ -25,7 +25,7 @@ jobs:
 
     - name: 删除现有的 disable-unavailable-ids 分支
       run: |
-        branch_name="disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)"
+        branch_name="disable-unavailable-ids-$(basename ${{ matrix.maps_path }} .txt)"
         git branch -D $branch_name || true
         git push origin --delete $branch_name || true
 
@@ -76,5 +76,5 @@ jobs:
           ${{ env.unavailable_ids }}
           
           请审核并确认更改。
-        branch: 'disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)'
+        branch: 'disable-unavailable-ids-$(basename ${{ matrix.maps_path }} .txt)'
         base: master
