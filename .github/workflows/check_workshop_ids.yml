@@ -36,50 +36,29 @@ jobs:
       run: |
         find cs2 -path "*/counterstrikesharp/configs/plugins/MapChooser/maps.txt" > map_files.txt
 
-    - name: 运行检查脚本
-      id: check_script
+    - name: 逐个检查文件并创建拉取请求
+      id: check_and_create_pr
       run: |
-        touch unavailable_ids.txt
         while IFS= read -r map_file; do
-          python scripts/check_workshop_ids.py "$map_file" || echo "$map_file" >> failed_maps.txt
+          # 运行检查脚本
+          python scripts/check_workshop_ids.py "$map_file" || touch failed.txt
+
+          # 如果有不可用的 IDs，创建拉取请求
+          if [ -f unavailable_ids.txt ]; then
+            ids=$(cat unavailable_ids.txt)
+            failed_maps="$map_file"
+            
+            # 设置 GitHub 环境变量
+            echo "unavailable_ids=$ids" >> $GITHUB_ENV
+            echo "failed_maps=$failed_maps" >> $GITHUB_ENV
+
+            # 创建拉取请求
+            gh pr create --title "[自动]禁用不可用的 Steam Workshop IDs" \
+                         --body "部分 Steam Workshop IDs 经系统检测当前不可用。已将其对应的 enabled 字段从 1 改为 0。\n\n不可用 ID 列表:\n${{ env.unavailable_ids }}\n\n受影响的 maps.txt 文件:\n${{ env.failed_maps }}\n\n可能是临时性的调整,请审核,并确认更改。" \
+                         --head disable-unavailable-ids \
+                         --base master
+          fi
+
+          # 清理临时文件
+          rm -f unavailable_ids.txt failed.txt
         done < map_files.txt
-      continue-on-error: true
-
-    - name: 读取不可用的 IDs
-      id: read_unavailable_ids
-      run: |
-        if [ -f unavailable_ids.txt ]; then
-          ids=$(cat unavailable_ids.txt)
-          echo "unavailable_ids=$ids" >> $GITHUB_ENV
-        fi
-        if [ -f failed_maps.txt ]; then
-          failed_maps=$(cat failed_maps.txt)
-          echo "failed_maps=$failed_maps" >> $GITHUB_ENV
-        fi
-
-    - name: 输出结果
-      run: |
-        if [ -s unavailable_ids.txt ]; then
-          echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
-        else
-          echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
-        fi
-
-    - name: 创建拉取请求
-      if: steps.read_unavailable_ids.outputs.unavailable_ids  # 仅在存在不可用 ID 时触发
-      uses: peter-evans/create-pull-request@v5
-      with:
-        commit-message: '禁用不可用的 Steam Workshop IDs'
-        title: '[自动]禁用不可用的 Steam Workshop IDs'
-        body: |
-          部分 Steam Workshop IDs 经系统检测当前不可用。已将其对应的 enabled 字段从 1 改为 0。
-
-          不可用 ID 列表:
-          ${{ env.unavailable_ids }}
-
-          受影响的 maps.txt 文件:
-          ${{ env.failed_maps }}
-          
-          可能是临时性的调整,请审核,并确认更改。
-        branch: 'disable-unavailable-ids'
-        base: master
