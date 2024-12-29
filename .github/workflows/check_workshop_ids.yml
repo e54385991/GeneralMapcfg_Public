@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         maps_path:
-          - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
           - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+          - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
           # 在这里添加更多的 maps.txt 文件路径
 
     steps:
@@ -25,7 +25,7 @@ jobs:
 
     - name: 删除现有的 disable-unavailable-ids 分支
       run: |
-        branch_name="disable-unavailable-ids-$(basename ${{ matrix.maps_path }} .txt)"
+        branch_name="disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)"
         git branch -D $branch_name || true
         git push origin --delete $branch_name || true
 
@@ -67,14 +67,14 @@ jobs:
       if: failure()  # 仅在上一步失败时触发
       uses: peter-evans/create-pull-request@v5
       with:
-        commit-message: '禁用不可用的 Steam Workshop IDs'
-        title: '禁用不可用的 Steam Workshop IDs'
+        commit-message: 禁用不可用的 Steam Workshop IDs
+        title: 禁用不可用的 Steam Workshop IDs
         body: |
           部分 Steam Workshop IDs 不可用。已将其对应的 enabled 字段从 1 改为 0。
 
           不可用 ID 列表:
           ${{ env.unavailable_ids }}
-          
+
           请审核并确认更改。
-        branch: 'disable-unavailable-ids-$(basename ${{ matrix.maps_path }} .txt)'
+        branch: disable-unavailable-ids-$(echo ${{ matrix.maps_path }} | md5sum | cut -d ' ' -f 1)
         base: master
