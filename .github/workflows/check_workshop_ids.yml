@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         maps_path:
-          - 'cs2/counterstrikesharp/configs/plugins/MapChooser/maps1.txt'
-          - 'cs2/counterstrikesharp/configs/plugins/MapChooser/maps2.txt'
+          - 'cs2/kz/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
+          - 'cs2/mg/counterstrikesharp/configs/plugins/MapChooser/maps.txt'
           # 在这里添加更多的 maps.txt 文件路径
 
     steps:
