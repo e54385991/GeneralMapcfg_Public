@@ -63,6 +63,7 @@ jobs:
           echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
         else:
           echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
+        fi
 
     - name: 创建拉取请求
       if: steps.read_unavailable_ids.outputs.unavailable_ids  # 仅在存在不可用 ID 时触发
