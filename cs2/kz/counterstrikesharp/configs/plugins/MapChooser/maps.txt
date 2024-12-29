@@ -742,11 +742,4 @@
 		"filename"		"kz_castle"
 		"updatedname"		"kz_castle"
 	}
-	"kz_invalidtest"
-	{
-		"workshop_id"		"3371283562111111"
-		"enabled"		"1"
-		"filename"		"kz_invalidtest"
-		"updatedname"		"kz_invalidtest"
-	}
 }
