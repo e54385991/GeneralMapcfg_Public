@@ -745,7 +745,7 @@
 	"kz_invalidtest"
 	{
 		"workshop_id"		"3371283562111111"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_invalidtest"
 		"updatedname"		"kz_invalidtest"
 	}
