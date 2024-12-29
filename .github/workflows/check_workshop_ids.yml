@@ -39,13 +39,13 @@ jobs:
     - name: 运行检查脚本
       id: check_script
       run: |
+        touch unavailable_ids.txt
         while IFS= read -r map_file; do
           python scripts/check_workshop_ids.py "$map_file" || echo "$map_file" >> failed_maps.txt
         done < map_files.txt
       continue-on-error: true
 
     - name: 读取不可用的 IDs
-      if: failure()
       id: read_unavailable_ids
       run: |
         if [ -f unavailable_ids.txt ]; then
@@ -55,19 +55,16 @@ jobs:
         if [ -f failed_maps.txt ]; then
           failed_maps=$(cat failed_maps.txt)
           echo "failed_maps=$failed_maps" >> $GITHUB_ENV
-        fi
 
     - name: 输出结果
       run: |
-        if [ "${{ steps.check_script.outcome }}" == "failure" ]; then
+        if [ -s unavailable_ids.txt ]; then
           echo -e "\033[91m部分 Steam Workshop IDs 不可用。\033[0m"
-          exit 1
         else:
           echo -e "\033[92m所有 Steam Workshop IDs 均可用。\033[0m"
-        fi
 
     - name: 创建拉取请求
-      if: failure()  # 仅在上一步失败时触发
+      if: steps.read_unavailable_ids.outputs.unavailable_ids  # 仅在存在不可用 ID 时触发
       uses: peter-evans/create-pull-request@v5
       with:
         commit-message: '禁用不可用的 Steam Workshop IDs'
