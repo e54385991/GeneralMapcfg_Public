@@ -55,6 +55,7 @@ jobs:
         if [ -f failed_maps.txt ]; then
           failed_maps=$(cat failed_maps.txt)
           echo "failed_maps=$failed_maps" >> $GITHUB_ENV
+        fi
 
     - name: 输出结果
       run: |
