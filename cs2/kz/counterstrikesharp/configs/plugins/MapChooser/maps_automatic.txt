@@ -749,4 +749,11 @@
 		"filename"		"kz_sxb2_onlyslide"
 		"updatedname"		"kz_sxb2_onlyslide"
 	}
+	"KZ Skorpa Ascend Challenge"
+	{
+		"workshop_id"		"3375995544"
+		"enabled"		"1"
+		"filename"		"KZ Skorpa Ascend Challenge"
+		"updatedname"		"KZ Skorpa Ascend Challenge"
+	}
 }
