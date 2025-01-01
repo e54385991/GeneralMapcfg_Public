@@ -756,4 +756,11 @@
 		"filename"		"KZ Skorpa Ascend Challenge"
 		"updatedname"		"KZ Skorpa Ascend Challenge"
 	}
+	"kz_flood"
+	{
+		"workshop_id"		"3394250961"
+		"enabled"		"1"
+		"filename"		"kz_flood"
+		"updatedname"		"kz_flood"
+	}
 }
