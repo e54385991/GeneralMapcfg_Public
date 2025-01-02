@@ -234,7 +234,7 @@
 	"kz_consequence"
 	{
 		"workshop_id"		"3250581189"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_consequence"
 		"updatedname"		"kz_consequence"
 	}
