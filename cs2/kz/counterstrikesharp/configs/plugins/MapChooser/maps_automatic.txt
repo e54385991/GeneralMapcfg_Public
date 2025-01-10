@@ -763,4 +763,11 @@
 		"filename"		"kz_flood"
 		"updatedname"		"kz_flood"
 	}
+	"kz_spire"
+	{
+		"workshop_id"		"3352534882"
+		"enabled"		"1"
+		"filename"		"kz_spire"
+		"updatedname"		"kz_spire"
+	}
 }
