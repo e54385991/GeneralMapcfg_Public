@@ -1,11 +1,11 @@
 "Maplist"
 {
-	"KZ_HUB"
+	"KZ_HUB V2"
 	{
 		"workshop_id"		"3070220367"
 		"enabled"		"1"
-		"filename"		"KZ_HUB"
-		"updatedname"		"KZ_HUB"
+		"filename"		"KZ_HUB V2"
+		"updatedname"		"KZ_HUB V2"
 	}
 	"kz_grotto"
 	{
@@ -252,12 +252,12 @@
 		"filename"		"kz_misaka"
 		"updatedname"		"kz_misaka"
 	}
-	"kz_inui"
+	"kz_butterfly"
 	{
 		"workshop_id"		"3248925340"
 		"enabled"		"1"
-		"filename"		"kz_inui"
-		"updatedname"		"kz_inui"
+		"filename"		"kz_butterfly"
+		"updatedname"		"kz_butterfly"
 	}
 	"kz_rc_femboy"
 	{
@@ -297,7 +297,7 @@
 	"kz_ghs"
 	{
 		"workshop_id"		"3278824777"
-		"enabled"		"0"
+		"enabled"		"1"
 		"filename"		"kz_ghs"
 		"updatedname"		"kz_ghs"
 	}
@@ -322,20 +322,6 @@
 		"filename"		"kz_sonder"
 		"updatedname"		"kz_sonder"
 	}
-	"kz_WazupSpencer[0.8]"
-	{
-		"workshop_id"		"3276767694"
-		"enabled"		"0"
-		"filename"		"kz_WazupSpencer[0.8]"
-		"updatedname"		"kz_WazupSpencer[0.8]"
-	}
-	"kz_sxb2_whoisadgod"
-	{
-		"workshop_id"		"3275804057"
-		"enabled"		"0"
-		"filename"		"kz_sxb2_whoisadgod"
-		"updatedname"		"kz_sxb2_whoisadgod"
-	}
 	"kz_bd_its_mygo"
 	{
 		"workshop_id"		"3285279291"
@@ -357,19 +343,12 @@
 		"filename"		"kz_dam"
 		"updatedname"		"kz_dam"
 	}
-	"kz_Maybe(Test)"
-	{
-		"workshop_id"		"3279308686"
-		"enabled"		"1"
-		"filename"		"kz_Maybe(Test)"
-		"updatedname"		"kz_Maybe(Test)"
-	}
-	"kz_hb_mute"
+	"kz_notmute"
 	{
 		"workshop_id"		"3159507211"
 		"enabled"		"1"
-		"filename"		"kz_hb_mute"
-		"updatedname"		"kz_hb_mute"
+		"filename"		"kz_notmute"
+		"updatedname"		"kz_notmute"
 	}
 	"kz_variety_fix"
 	{
@@ -377,13 +356,6 @@
 		"enabled"		"1"
 		"filename"		"kz_variety_fix"
 		"updatedname"		"kz_variety_fix"
-	}
-	"kz_moonlight"
-	{
-		"workshop_id"		"3287653784"
-		"enabled"		"1"
-		"filename"		"kz_moonlight"
-		"updatedname"		"kz_moonlight"
 	}
 	"kz_deuxme"
 	{
@@ -398,6 +370,13 @@
 		"enabled"		"1"
 		"filename"		"kz_train"
 		"updatedname"		"kz_train"
+	}
+	"kz_moonlight"
+	{
+		"workshop_id"		"3287653784"
+		"enabled"		"1"
+		"filename"		"kz_moonlight"
+		"updatedname"		"kz_moonlight"
 	}
 	"kz_rome"
 	{
@@ -427,12 +406,12 @@
 		"filename"		"kz_sxb2_misato"
 		"updatedname"		"kz_sxb2_misato"
 	}
-	"kz_gus"
+	"kz_gus_cs2"
 	{
 		"workshop_id"		"3082144971"
 		"enabled"		"1"
-		"filename"		"kz_gus"
-		"updatedname"		"kz_gus"
+		"filename"		"kz_gus_cs2"
+		"updatedname"		"kz_gus_cs2"
 	}
 	"kz_simplyhard"
 	{
@@ -539,19 +518,19 @@
 		"filename"		"kz_obsidian"
 		"updatedname"		"kz_obsidian"
 	}
-	"kz_sxb_sc_surf"
-	{
-		"workshop_id"		"3241559107"
-		"enabled"		"1"
-		"filename"		"kz_sxb_sc_surf"
-		"updatedname"		"kz_sxb_sc_surf"
-	}
 	"kz_rc_twotowers"
 	{
 		"workshop_id"		"3083509404"
 		"enabled"		"1"
 		"filename"		"kz_rc_twotowers"
 		"updatedname"		"kz_rc_twotowers"
+	}
+	"kz_sxb_sc_surf"
+	{
+		"workshop_id"		"3241559107"
+		"enabled"		"1"
+		"filename"		"kz_sxb_sc_surf"
+		"updatedname"		"kz_sxb_sc_surf"
 	}
 	"bkz_goldbhop"
 	{
@@ -749,13 +728,6 @@
 		"filename"		"kz_sxb2_onlyslide"
 		"updatedname"		"kz_sxb2_onlyslide"
 	}
-	"KZ Skorpa Ascend Challenge"
-	{
-		"workshop_id"		"3375995544"
-		"enabled"		"1"
-		"filename"		"KZ Skorpa Ascend Challenge"
-		"updatedname"		"KZ Skorpa Ascend Challenge"
-	}
 	"kz_flood"
 	{
 		"workshop_id"		"3394250961"
@@ -763,11 +735,60 @@
 		"filename"		"kz_flood"
 		"updatedname"		"kz_flood"
 	}
+	"KZ Skorpa Ascend Challenge"
+	{
+		"workshop_id"		"3375995544"
+		"enabled"		"1"
+		"filename"		"KZ Skorpa Ascend Challenge"
+		"updatedname"		"KZ Skorpa Ascend Challenge"
+	}
 	"kz_spire"
 	{
 		"workshop_id"		"3352534882"
 		"enabled"		"1"
 		"filename"		"kz_spire"
 		"updatedname"		"kz_spire"
+	}
+	"kz_hitech"
+	{
+		"workshop_id"		"3411324243"
+		"enabled"		"1"
+		"filename"		"kz_hitech"
+		"updatedname"		"kz_hitech"
+	}
+	"kz_playinggrounds"
+	{
+		"workshop_id"		"3414813086"
+		"enabled"		"1"
+		"filename"		"kz_playinggrounds"
+		"updatedname"		"kz_playinggrounds"
+	}
+	"kz_bhop_slide"
+	{
+		"workshop_id"		"3414620599"
+		"enabled"		"1"
+		"filename"		"kz_bhop_slide"
+		"updatedname"		"kz_bhop_slide"
+	}
+	"kz_slide_arid"
+	{
+		"workshop_id"		"3413033794"
+		"enabled"		"1"
+		"filename"		"kz_slide_arid"
+		"updatedname"		"kz_slide_arid"
+	}
+	"kz_minecraft_village"
+	{
+		"workshop_id"		"3412458047"
+		"enabled"		"1"
+		"filename"		"kz_minecraft_village"
+		"updatedname"		"kz_minecraft_village"
+	}
+	"kz_geometrydash_rofl"
+	{
+		"workshop_id"		"3400789439"
+		"enabled"		"1"
+		"filename"		"kz_geometrydash_rofl"
+		"updatedname"		"kz_geometrydash_rofl"
 	}
 }
