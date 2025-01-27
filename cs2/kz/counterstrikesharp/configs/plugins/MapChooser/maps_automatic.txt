@@ -784,4 +784,32 @@
 		"filename"		"kz_geometrydash_rofl"
 		"updatedname"		"kz_geometrydash_rofl"
 	}
+	"kz_playinggrounds"
+	{
+		"workshop_id"		"3414813086"
+		"enabled"		"1"
+		"filename"		"kz_playinggrounds"
+		"updatedname"		"kz_playinggrounds"
+	}
+	"kz_bhop_slide"
+	{
+		"workshop_id"		"3414620599"
+		"enabled"		"1"
+		"filename"		"kz_bhop_slide"
+		"updatedname"		"kz_bhop_slide"
+	}
+	"kz_slide_arid"
+	{
+		"workshop_id"		"3413033794"
+		"enabled"		"1"
+		"filename"		"kz_slide_arid"
+		"updatedname"		"kz_slide_arid"
+	}
+	"kz_minecraft_village"
+	{
+		"workshop_id"		"3412458047"
+		"enabled"		"1"
+		"filename"		"kz_minecraft_village"
+		"updatedname"		"kz_minecraft_village"
+	}
 }
