@@ -770,4 +770,18 @@
 		"filename"		"kz_spire"
 		"updatedname"		"kz_spire"
 	}
+	"kz_hitech"
+	{
+		"workshop_id"		"3411324243"
+		"enabled"		"1"
+		"filename"		"kz_hitech"
+		"updatedname"		"kz_hitech"
+	}
+	"kz_geometrydash_rofl"
+	{
+		"workshop_id"		"3400789439"
+		"enabled"		"1"
+		"filename"		"kz_geometrydash_rofl"
+		"updatedname"		"kz_geometrydash_rofl"
+	}
 }
