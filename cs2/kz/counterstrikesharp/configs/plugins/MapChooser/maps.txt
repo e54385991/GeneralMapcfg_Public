@@ -444,7 +444,7 @@
 	"kz_sxb2_despacito"
 	{
 		"workshop_id"		"3075242470"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_sxb2_despacito"
 		"updatedname"		"kz_sxb2_despacito"
 	}
