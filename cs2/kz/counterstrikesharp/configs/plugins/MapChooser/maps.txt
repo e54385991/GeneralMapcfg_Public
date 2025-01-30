@@ -283,7 +283,7 @@
 	"kz_paradise"
 	{
 		"workshop_id"		"3276365521"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_paradise"
 		"updatedname"		"kz_paradise"
 	}
