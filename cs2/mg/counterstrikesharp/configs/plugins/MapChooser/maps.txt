@@ -164,7 +164,7 @@
 	"mg_ke_multigame"
 	{
 		"workshop_id"		"3265016761"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"mg_ke_multigame"
 		"updatedname"		"mg_ke_multigame"
 	}
