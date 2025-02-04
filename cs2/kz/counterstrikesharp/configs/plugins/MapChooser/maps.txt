@@ -59,7 +59,7 @@
 	"kz_sxb2_surfaintkz"
 	{
 		"workshop_id"		"3107580148"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_sxb2_surfaintkz"
 		"updatedname"		"kz_sxb2_surfaintkz"
 	}
