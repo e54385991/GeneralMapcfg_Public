@@ -12,6 +12,7 @@
     "AllowRtv": true,
     "RTVPercent": 0.62,
     "RTVDelay": 1.0,
+    "UseGameTimeLimit":false,
     "SteamWorkShopCollectionId": "3218424661",
     "AutoDownload": true,
     "UseSteamWorkShopCollectionId": true,
