@@ -1,7 +1,7 @@
 {
 	"PrintToCenterHtml": false,
 	"Ads": [{
-		"Interval": 50,
+		"Interval": 45,
 		"Messages": [{
 				"Chat": "{ads_1}"
 			},
@@ -22,6 +22,9 @@
 			},
 			{
 				"Chat": "{ads_7}"
+			},
+			{
+				"Chat": "{ads_8}"
 			}
 		]
 	}],
@@ -71,7 +74,14 @@
 		    "JP": "{RED}[Xコミュニティ] {LIME}マップの完了記録や個人の完了時間を確認するには、{LIGHTPURPLE}!pr{DEFAULT}と入力してください。{GREEN}ベストプレイヤーの記録{DEFAULT}は{RED}!wr{DEFAULT}で確認できます。現在のマップのランキングを確認するには{RED}!maptop{DEFAULT}と入力し、その後{LIGHTPURPLE}コンソールでメッセージを確認してください{DEFAULT}。",
 		    "KR": "{RED}[X 커뮤니티] {LIME}맵 완료 기록 및 개인 완료 시간을 확인하려면 {LIGHTPURPLE}!pr{DEFAULT}을 입력하세요. {GREEN}최고 플레이어 기록{DEFAULT}은 {RED}!wr{DEFAULT}으로 확인할 수 있습니다. 현재 맵 순위를 확인하려면 {RED}!maptop{DEFAULT}을 입력한 후 {LIGHTPURPLE}콘솔 메시지를 확인하세요{DEFAULT}."
 		},
-		"ads_7": {
+		    "ads_7": {
+		        "CN": "{RED}[X社区] {LIME}查询全球排名请输入 {LIGHTPURPLE}!gctop{DEFAULT} 前提是地图在全球批准列表中 参见 cs2kz.o{GREEN}r{DEFAULT}g/courses{DEFAULT}。",
+		        "US": "{RED}[X Community] {LIME}To query the global ranking, type {LIGHTPURPLE}!gctop{DEFAULT}. The map must be in the global approved list. See cs2kz.o{GREEN}r{DEFAULT}g/courses{DEFAULT}.",
+		        "TW": "{RED}[X社區] {LIME}查詢全球排名請輸入 {LIGHTPURPLE}!gctop{DEFAULT} 前提是地圖在全球批准列表中 參見 cs2kz.o{GREEN}r{DEFAULT}g/courses{DEFAULT}。",
+		        "JP": "{RED}[Xコミュニティ] {LIME}グローバルランキングを確認するには、{LIGHTPURPLE}!gctop{DEFAULT}と入力してください。マップはグローバル承認リストに含まれている必要があります。詳細は cs2kz.o{GREEN}r{DEFAULT}g/courses{DEFAULT} を参照してください。",
+		        "KR": "{RED}[X 커뮤니티] {LIME}글로벌 순위를 조회하려면 {LIGHTPURPLE}!gctop{DEFAULT}을 입력하세요. 맵은 글로벌 승인 목록에 있어야 합니다. 자세한 내용은 cs2kz.o{GREEN}r{DEFAULT}g/courses{DEFAULT}을 참조하세요."
+    		},
+		"ads_8": {
 		  "CN": "{RED}[X社区] {LIME} 您可以在控制台输入 {GREEN}thirdperson 以开启第三人称视角 {RED}firstperson 则可以还原",
 		  "US": "{RED}[X Community] {LIME}You can enter {GREEN}thirdperson{LIME} in the console to switch to third-person view. Type {RED}firstperson{LIME} to revert back.",
 		  "TW": "{RED}[X社區] {LIME}您可以在控制台輸入 {GREEN}thirdperson {LIME}以開啟第三人稱視角，輸入 {RED}firstperson {LIME}可以還原。",
