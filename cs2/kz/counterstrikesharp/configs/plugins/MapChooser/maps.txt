@@ -794,7 +794,7 @@
 	"kz_minecraft_village"
 	{
 		"workshop_id"		"3412458047"
-		"enabled"		"1"
+		"enabled"		"0"
 		"filename"		"kz_minecraft_village"
 		"updatedname"		"kz_minecraft_village"
 	}
