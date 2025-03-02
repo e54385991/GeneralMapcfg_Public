@@ -882,4 +882,59 @@
 		"filename"		"kz_11342"
 		"updatedname"		"kz_11342"
 	}
+	"kz_retreat"
+	{
+		"workshop_id"		"3421030265"
+		"enabled"		"1"
+		"filename"		"kz_retreat"
+		"updatedname"		"kz_retreat"
+	}
+	"kz_chaos"
+	{
+		"workshop_id"		"3432169954"
+		"enabled"		"1"
+		"filename"		"kz_chaos"
+		"updatedname"		"kz_chaos"
+		"OnlyNominate"		"0"
+	}
+	"kz_kiwionerous"
+	{
+		"workshop_id"		"3430337743"
+		"enabled"		"1"
+		"filename"		"kz_kiwionerous"
+		"updatedname"		"kz_kiwionerous"
+		"OnlyNominate"		"0"
+	}
+	"kz_okaychamp"
+	{
+		"workshop_id"		"3430093272"
+		"enabled"		"1"
+		"filename"		"kz_okaychamp"
+		"updatedname"		"kz_okaychamp"
+		"OnlyNominate"		"0"
+	}
+	"kz_concretejungle"
+	{
+		"workshop_id"		"3429375699"
+		"enabled"		"1"
+		"filename"		"kz_concretejungle"
+		"updatedname"		"kz_concretejungle"
+		"OnlyNominate"		"0"
+	}
+	"kz_bigcastle"
+	{
+		"workshop_id"		"3428921927"
+		"enabled"		"1"
+		"filename"		"kz_bigcastle"
+		"updatedname"		"kz_bigcastle"
+		"OnlyNominate"		"0"
+	}
+	"kz_jakke"
+	{
+		"workshop_id"		"3428669060"
+		"enabled"		"1"
+		"filename"		"kz_jakke"
+		"updatedname"		"kz_jakke"
+		"OnlyNominate"		"0"
+	}
 }
