@@ -882,4 +882,52 @@
 		"filename"		"kz_retreat"
 		"updatedname"		"kz_retreat"
 	}
+	"kz_chaos // KZ map by deukumpel"
+	{
+		"workshop_id"		"3432169954"
+		"enabled"		"1"
+		"filename"		"kz_chaos // KZ map by deukumpel"
+		"updatedname"		"kz_chaos // KZ map by deukumpel"
+		"OnlyNominate"		"0"
+	}
+	"kz_kiwionerous"
+	{
+		"workshop_id"		"3430337743"
+		"enabled"		"1"
+		"filename"		"kz_kiwionerous"
+		"updatedname"		"kz_kiwionerous"
+		"OnlyNominate"		"0"
+	}
+	"kz_okaychamp"
+	{
+		"workshop_id"		"3430093272"
+		"enabled"		"1"
+		"filename"		"kz_okaychamp"
+		"updatedname"		"kz_okaychamp"
+		"OnlyNominate"		"0"
+	}
+	"kz_concretejungle"
+	{
+		"workshop_id"		"3429375699"
+		"enabled"		"1"
+		"filename"		"kz_concretejungle"
+		"updatedname"		"kz_concretejungle"
+		"OnlyNominate"		"0"
+	}
+	"kz_bigcastle"
+	{
+		"workshop_id"		"3428921927"
+		"enabled"		"1"
+		"filename"		"kz_bigcastle"
+		"updatedname"		"kz_bigcastle"
+		"OnlyNominate"		"0"
+	}
+	"kz_jakke"
+	{
+		"workshop_id"		"3428669060"
+		"enabled"		"1"
+		"filename"		"kz_jakke"
+		"updatedname"		"kz_jakke"
+		"OnlyNominate"		"0"
+	}
 }
